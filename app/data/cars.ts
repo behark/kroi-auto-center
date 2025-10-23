@@ -49,7 +49,7 @@ export const cars: Car[] = [
     description: 'Audi Q5 vuodelta 2024.',
     detailedDescription: [
       'Tämä Audi Audi Q5 2.0 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -76,7 +76,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Suv' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'suv',
     status: 'available',
     featured: false,
@@ -154,7 +154,7 @@ export const cars: Car[] = [
     description: 'Bmw X5 vuodelta 2024.',
     detailedDescription: [
       'Tämä Bmw BMW X5 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -181,7 +181,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: 'N/A' },
       { label: 'Tyyppi', value: 'Suv' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'suv',
     status: 'available',
     featured: false,
@@ -259,7 +259,7 @@ export const cars: Car[] = [
     description: 'Audi A4 vuodelta 2024.',
     detailedDescription: [
       'Tämä Audi Audi A4 Allroad 2.0 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -286,7 +286,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Compact' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'family',
     status: 'available',
     featured: false,
@@ -358,7 +358,7 @@ export const cars: Car[] = [
     description: 'Skoda Octavia vuodelta 2024.',
     detailedDescription: [
       'Tämä Skoda Skoda Octavia 1.6 diesel automaatti 2020 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -385,7 +385,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -463,7 +463,7 @@ export const cars: Car[] = [
     description: 'Seat Tarraco vuodelta 2024.',
     detailedDescription: [
       'Tämä Seat Seat Tarraco 2.0 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -490,7 +490,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Suv' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'suv',
     status: 'available',
     featured: false,
@@ -574,7 +574,7 @@ export const cars: Car[] = [
     description: 'Volkswagen Passat vuodelta 2024.',
     detailedDescription: [
       'Tämä Volkswagen VW Passat 1.6 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -600,7 +600,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Compact' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'family',
     status: 'available',
     featured: false,
@@ -696,7 +696,7 @@ export const cars: Car[] = [
     description: 'Audi A6 vuodelta 2024.',
     detailedDescription: [
       'Tämä Audi Audi A6 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -723,7 +723,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -753,7 +753,7 @@ export const cars: Car[] = [
     description: 'Mercedes Benz E Class vuodelta 2024.',
     detailedDescription: [
       'Tämä Mercedes Benz Mercedes Benz E220 AMG Paketti on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -780,7 +780,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -852,7 +852,7 @@ export const cars: Car[] = [
     description: 'Skoda Superb vuodelta 2024.',
     detailedDescription: [
       'Tämä Skoda Skoda SuperB on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -879,7 +879,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -963,7 +963,7 @@ export const cars: Car[] = [
     description: 'Mercedes Benz E Class vuodelta 2024.',
     detailedDescription: [
       'Tämä Mercedes Benz Mercedes Benz E220 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -990,7 +990,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -1074,7 +1074,7 @@ export const cars: Car[] = [
     description: 'Bmw 215 vuodelta 2024.',
     detailedDescription: [
       'Tämä Bmw BMW 320 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -1101,7 +1101,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -1185,7 +1185,7 @@ export const cars: Car[] = [
     description: 'Audi A6 vuodelta 2024.',
     detailedDescription: [
       'Tämä Audi Audi A6 Sedan Business Sport 3.0 V6 TDI 160 kW quattro on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -1210,7 +1210,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -1288,7 +1288,7 @@ export const cars: Car[] = [
     description: 'Skoda Superb vuodelta 2024.',
     detailedDescription: [
       'Tämä Skoda Skoda Superb on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -1315,7 +1315,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Compact' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'family',
     status: 'available',
     featured: false,
@@ -1399,7 +1399,7 @@ export const cars: Car[] = [
     description: 'Audi A6 vuodelta 2024.',
     detailedDescription: [
       'Tämä Audi Audi A6 Avant 40 TDI MHEV quattro S tronic Business Design on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -1426,7 +1426,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Compact' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'family',
     status: 'available',
     featured: false,
@@ -1510,7 +1510,7 @@ export const cars: Car[] = [
     description: 'Audi A6 vuodelta 2024.',
     detailedDescription: [
       'Tämä Audi Audi A6 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -1537,7 +1537,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -1567,7 +1567,7 @@ export const cars: Car[] = [
     description: 'Bmw Bmw 520 vuodelta 2024.',
     detailedDescription: [
       'Tämä Bmw BMW 520 F10 Sedan 520d A xDrive Edition Exclusive on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -1594,7 +1594,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -1672,7 +1672,7 @@ export const cars: Car[] = [
     description: 'Mercedes Benz E Class vuodelta 2024.',
     detailedDescription: [
       'Tämä Mercedes Benz Mercedes-Benz E 220d Premium Business on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -1699,7 +1699,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Sedan' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'premium',
     status: 'available',
     featured: false,
@@ -1777,7 +1777,7 @@ export const cars: Car[] = [
     description: 'Volkswagen Golf vuodelta 2024.',
     detailedDescription: [
       'Tämä Volkswagen Volkswagen Golf Allstar on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
+      'Auto on varustettu automaattivaihteistolla ja dieselmoottorilla.',
       'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
     ],
     features: [
@@ -1802,7 +1802,7 @@ export const cars: Car[] = [
       { label: 'Ovet', value: '4 ovea' },
       { label: 'Tyyppi', value: 'Compact' },
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
+    condition: 'Hyvässä kunnossa. Säännöllisesti huollettu.',
     category: 'family',
     status: 'available',
     featured: false,

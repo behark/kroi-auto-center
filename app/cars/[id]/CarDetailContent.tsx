@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Car, ArrowLeft, Phone, MessageCircle, Share2, Facebook, Check, MapPin, Calendar, Gauge, Fuel, Settings } from 'lucide-react';
+import { Car, ArrowLeft, Phone, MessageCircle, Share2, Facebook, Check, MapPin, Calendar, Gauge, Fuel, Settings, ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -54,6 +54,7 @@ interface CarDetailContentProps {
  */
 export function CarDetailContent({ car, relatedCars }: CarDetailContentProps) {
   const [shareStatus, setShareStatus] = useState<'idle' | 'copied'>('idle');
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   if (!car) {
     return (
@@ -76,6 +77,22 @@ export function CarDetailContent({ car, relatedCars }: CarDetailContentProps) {
 
   const whatsappUrl = `https://wa.me/358413188214?text=Hei! Olen kiinnostunut autosta: ${encodeURIComponent(car.name)} (${encodeURIComponent('€' + car.priceEur.toLocaleString())})`;
   const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
+
+  // Image gallery navigation
+  const images = car.images || [];
+  const hasMultipleImages = images.length > 1;
+
+  const nextImage = () => {
+    setCurrentImageIndex((prev) => (prev + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  const goToImage = (index: number) => {
+    setCurrentImageIndex(index);
+  };
 
   const handleShare = async () => {
     if (navigator.share) {
@@ -156,27 +173,80 @@ export function CarDetailContent({ car, relatedCars }: CarDetailContentProps) {
       <section className="pb-8 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-8 items-start">
-            {/* Image */}
+            {/* Image Gallery */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
-              className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-purple-100 to-pink-100"
+              className="space-y-4"
             >
-              {car.images?.[0]?.url ? (
-                <Image
-                  src={car.images[0].url}
-                  alt={car.name}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  priority
-                  placeholder="blur"
-                  blurDataURL={getPlaceholder(700, 500)}
-                />
-              ) : (
-                <div className="h-full flex items-center justify-center">
-                  <Car className="h-32 w-32 text-purple-400" />
+              {/* Main Image */}
+              <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-purple-100 to-pink-100 group">
+                {images[currentImageIndex]?.url ? (
+                  <Image
+                    src={images[currentImageIndex].url}
+                    alt={images[currentImageIndex].altText || car.name}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    priority
+                    placeholder="blur"
+                    blurDataURL={getPlaceholder(700, 500)}
+                  />
+                ) : (
+                  <div className="h-full flex items-center justify-center">
+                    <Car className="h-32 w-32 text-purple-400" />
+                  </div>
+                )}
+
+                {/* Navigation Arrows */}
+                {hasMultipleImages && (
+                  <>
+                    <button
+                      onClick={prevImage}
+                      className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-slate-900 p-3 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                      aria-label="Previous image"
+                    >
+                      <ChevronLeft className="h-6 w-6" />
+                    </button>
+                    <button
+                      onClick={nextImage}
+                      className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-slate-900 p-3 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                      aria-label="Next image"
+                    >
+                      <ChevronRight className="h-6 w-6" />
+                    </button>
+
+                    {/* Image Counter */}
+                    <div className="absolute bottom-4 right-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      {currentImageIndex + 1} / {images.length}
+                    </div>
+                  </>
+                )}
+              </div>
+
+              {/* Thumbnail Strip */}
+              {hasMultipleImages && (
+                <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-thin scrollbar-thumb-purple-400 scrollbar-track-slate-200">
+                  {images.map((image, index) => (
+                    <button
+                      key={index}
+                      onClick={() => goToImage(index)}
+                      className={`relative flex-shrink-0 w-20 h-20 md:w-24 md:h-24 rounded-lg overflow-hidden transition-all ${
+                        index === currentImageIndex
+                          ? 'ring-4 ring-purple-500 scale-105'
+                          : 'ring-2 ring-slate-200 hover:ring-purple-300 opacity-70 hover:opacity-100'
+                      }`}
+                    >
+                      <Image
+                        src={image.url}
+                        alt={image.altText || `${car.name} - kuva ${index + 1}`}
+                        fill
+                        className="object-cover"
+                        sizes="96px"
+                      />
+                    </button>
+                  ))}
                 </div>
               )}
             </motion.div>
