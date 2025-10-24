@@ -4,34 +4,19 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
 // Force dynamic rendering to avoid database issues during build
+// This tells Next.js to render this page on every request (dynamic)
 export const dynamic = 'force-dynamic';
-
-/**
- * Generate static params for all car pages
- * This enables static site generation at build time
- */
-export async function generateStaticParams() {
-  try {
-    const { cars } = await import('@/app/data/cars');
-    return cars.map((car) => ({
-      id: car.slug,
-    }));
-  } catch (error) {
-    console.error('Error generating static params:', error);
-    return [];
-  }
-}
 
 /**
  * Generate dynamic metadata for SEO
  */
 export async function generateMetadata({
-  params
+  params,
 }: {
-  params: Promise<{ id: string }>
+  params: { id: string }; // FIX: This is a simple object, not a Promise
 }): Promise<Metadata> {
-  const { id } = await params;
-  const car = getCarById(id);
+  const { id } = params; // FIX: No await needed here
+  const car = await getCarById(id); // FIX: Added 'await' for data fetching
 
   if (!car) {
     return {
@@ -43,12 +28,21 @@ export async function generateMetadata({
   return {
     title: `${car.name} ${car.year} - ${car.price} | Kroi Auto Center`,
     description: car.description,
-    keywords: [car.brand, car.model, car.year, car.fuel, car.transmission, 'käytetty auto', 'auto myynti', 'Kroi Auto'].join(', '),
+    keywords: [
+      car.brand,
+      car.model,
+      car.year,
+      car.fuel,
+      car.transmission,
+      'käytetty auto',
+      'auto myynti',
+      'Kroi Auto',
+    ].join(', '),
     openGraph: {
       title: `${car.name} ${car.year} - ${car.price} | Kroi Auto Center`,
       description: car.description,
-      images: [car.image]
-    }
+      images: [car.image],
+    },
   };
 }
 
@@ -56,9 +50,13 @@ export async function generateMetadata({
  * Server Component - Car Detail Page
  * Handles params extraction and passes to client component with structured data
  */
-export default async function CarDetailPage({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
-  const car = getCarById(id);
+export default async function CarDetailPage({
+  params,
+}: {
+  params: { id: string }; // FIX: This is a simple object, not a Promise
+}) {
+  const { id } = params; // FIX: No await needed here
+  const car = await getCarById(id); // FIX: Added 'await' for data fetching
 
   // Return 404 if car not found
   if (!car) {
@@ -66,17 +64,17 @@ export default async function CarDetailPage({ params }: { params: Promise<{ id: 
   }
 
   // Get related cars
-  const relatedCars = getRelatedCars(car.id);
+  const relatedCars = await getRelatedCars(car.id); // FIX: Added 'await' for data fetching
 
   // Transform car data to match CarData interface
   const transformedCar = {
     ...car,
-    features: car.features?.map(f => ({ feature: f }))
+    features: car.features?.map((f) => ({ feature: f })),
   };
 
-  const transformedRelatedCars = relatedCars.map(c => ({
+  const transformedRelatedCars = relatedCars.map((c) => ({
     ...c,
-    features: c.features?.map(f => ({ feature: f }))
+    features: c.features?.map((f) => ({ feature: f })),
   }));
 
   return (
