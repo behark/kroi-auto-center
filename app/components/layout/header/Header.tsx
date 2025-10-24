@@ -66,7 +66,7 @@ export default function Header() {
               whileTap={{ scale: 0.9 }}
             >
               <Link
-                href="/compare"
+                href="/cars/compare"
                 className="text-slate-600 hover:text-purple-600 transition-colors"
                 title="Vertaile autoja"
               >
@@ -162,7 +162,7 @@ export default function Header() {
                 className="pt-3 border-t border-slate-200 space-y-3"
               >
                 <Link
-                  href="/compare"
+                  href="/cars/compare"
                   className="flex items-center space-x-2 text-slate-600 hover:text-purple-600 transition-colors py-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >
