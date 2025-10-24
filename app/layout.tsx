@@ -51,7 +51,7 @@ export default function RootLayout({
   const localBusinessData = SEOGenerator.generateLocalBusinessJSONLD();
 
   return (
-    <html lang="fi" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="fi" className={`${geistSans.variable} ${geistMono.variable}`} data-scroll-behavior="smooth">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="manifest" href="/manifest.json" />

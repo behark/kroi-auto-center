@@ -688,7 +688,7 @@ export default function AllCarsPage() {
                       className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden h-full"
                       whileHover={{ y: -5 }}
                     >
-                      <div className="relative h-48 overflow-hidden">
+                      <div className="relative aspect-video overflow-hidden">
                         <Link href={`/cars/${car.slug}`}>
                           <Image
                             src={car.image || '/placeholder-car.jpg'}

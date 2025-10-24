@@ -10,13 +10,9 @@ export const dynamic = 'force-dynamic';
 /**
  * Generate dynamic metadata for SEO
  */
-export async function generateMetadata({
-  params,
-}: {
-  params: { id: string }; // FIX: This is a simple object, not a Promise
-}): Promise<Metadata> {
-  const { id } = params; // FIX: No await needed here
-  const car = await getCarById(id); // FIX: Added 'await' for data fetching
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const car = await getCarById(id);
 
   if (!car) {
     return {
@@ -26,12 +22,12 @@ export async function generateMetadata({
 
   // Generate enhanced metadata
   return {
-    title: `${car.name} ${car.year} - ${car.price} | Kroi Auto Center`,
+    title: `${car.name} ${car.year} - ${car.priceEur} | Kroi Auto Center`,
     description: car.description,
     keywords: [
       car.brand,
       car.model,
-      car.year,
+      String(car.year),
       car.fuel,
       car.transmission,
       'käytetty auto',
@@ -39,9 +35,9 @@ export async function generateMetadata({
       'Kroi Auto',
     ].join(', '),
     openGraph: {
-      title: `${car.name} ${car.year} - ${car.price} | Kroi Auto Center`,
+      title: `${car.name} ${car.year} - ${car.priceEur} | Kroi Auto Center`,
       description: car.description,
-      images: [car.image],
+      images: [car.images[0]?.url || ''],
     },
   };
 }
@@ -50,13 +46,9 @@ export async function generateMetadata({
  * Server Component - Car Detail Page
  * Handles params extraction and passes to client component with structured data
  */
-export default async function CarDetailPage({
-  params,
-}: {
-  params: { id: string }; // FIX: This is a simple object, not a Promise
-}) {
-  const { id } = params; // FIX: No await needed here
-  const car = await getCarById(id); // FIX: Added 'await' for data fetching
+export default async function CarDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const car = await getCarById(id);
 
   // Return 404 if car not found
   if (!car) {
@@ -64,7 +56,7 @@ export default async function CarDetailPage({
   }
 
   // Get related cars
-  const relatedCars = await getRelatedCars(car.id); // FIX: Added 'await' for data fetching
+  const relatedCars = await getRelatedCars(car.id);
 
   // Transform car data to match CarData interface
   const transformedCar = {
