@@ -21,7 +21,7 @@ export default function Header() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-white border-b border-slate-200 sticky top-0 z-50 backdrop-blur-sm bg-white/95"
+      className="bg-white/95 border-b border-slate-200 sticky top-0 z-50 backdrop-blur-sm"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
@@ -31,16 +31,16 @@ export default function Header() {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
-            <Link href="/" className="flex items-center space-x-2">
+            <Link href="/" className="flex items-center space-x-2" aria-label="Kroi Auto Center etusivu">
               <div className="h-8 w-8 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center">
-                <Car className="h-5 w-5 text-white" />
+                <Car className="h-5 w-5 text-white" aria-hidden="true" />
               </div>
               <span className="text-xl font-bold text-slate-900">Kroi Auto Center</span>
             </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-8" aria-label="Päänavigaatio">
             {navigation.map((item, index) => (
               <motion.div
                 key={item.name}
@@ -53,7 +53,7 @@ export default function Header() {
                   className="text-slate-600 hover:text-purple-600 transition-colors font-medium relative group"
                 >
                   {item.name}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-pink-500 group-hover:w-full transition-all duration-300"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-pink-500 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
                 </Link>
               </motion.div>
             ))}
@@ -68,9 +68,9 @@ export default function Header() {
               <Link
                 href="/cars/compare"
                 className="text-slate-600 hover:text-purple-600 transition-colors"
-                title="Vertaile autoja"
+                aria-label="Vertaile autoja"
               >
-                <Heart className="h-5 w-5" />
+                <Heart className="h-5 w-5" aria-hidden="true" />
               </Link>
             </motion.div>
             <motion.div
@@ -80,13 +80,13 @@ export default function Header() {
               <Link
                 href="/customer/auth/login"
                 className="text-slate-600 hover:text-purple-600 transition-colors"
-                title="Asiakasportaali"
+                aria-label="Asiakasportaali"
               >
-                <User className="h-5 w-5" />
+                <User className="h-5 w-5" aria-hidden="true" />
               </Link>
             </motion.div>
-            <div className="flex items-center space-x-2 px-3 py-1 rounded-lg bg-slate-50">
-              <span className="text-lg">🇫🇮</span>
+            <div className="flex items-center space-x-2 px-3 py-1 rounded-lg bg-slate-50" role="img" aria-label="Kieli: Suomi">
+              <span className="text-lg" aria-hidden="true">🇫🇮</span>
               <span className="text-sm font-medium text-slate-700">Suomi</span>
             </div>
             <motion.div
@@ -104,18 +104,21 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-2">
-            <div className="flex items-center space-x-1 px-2 py-1 rounded-lg bg-slate-50">
-              <span className="text-sm">🇫🇮</span>
+            <div className="flex items-center space-x-1 px-2 py-1 rounded-lg bg-slate-50" role="img" aria-label="Kieli: Suomi">
+              <span className="text-sm" aria-hidden="true">🇫🇮</span>
             </div>
             <motion.button
               whileTap={{ scale: 0.95 }}
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="text-slate-600 hover:text-slate-900 transition-colors"
+              aria-label={mobileMenuOpen ? 'Sulje valikko' : 'Avaa valikko'}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               {mobileMenuOpen ? (
-                <X className="h-6 w-6" />
+                <X className="h-6 w-6" aria-hidden="true" />
               ) : (
-                <Menu className="h-6 w-6" />
+                <Menu className="h-6 w-6" aria-hidden="true" />
               )}
             </motion.button>
           </div>
@@ -126,18 +129,20 @@ export default function Header() {
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
+            id="mobile-menu"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: 'easeInOut' }}
             className="md:hidden border-t border-slate-200 bg-white"
           >
-            <motion.div
+            <motion.nav
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ delay: 0.1 }}
               className="px-4 py-4 space-y-3"
+              aria-label="Mobiilinavigaatio"
             >
               {navigation.map((item, index) => (
                 <motion.div
@@ -166,7 +171,7 @@ export default function Header() {
                   className="flex items-center space-x-2 text-slate-600 hover:text-purple-600 transition-colors py-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  <Heart className="h-5 w-5" />
+                  <Heart className="h-5 w-5" aria-hidden="true" />
                   <span>Vertaile autoja</span>
                 </Link>
                 <Link
@@ -174,7 +179,7 @@ export default function Header() {
                   className="flex items-center space-x-2 text-slate-600 hover:text-purple-600 transition-colors py-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  <User className="h-5 w-5" />
+                  <User className="h-5 w-5" aria-hidden="true" />
                   <span>Asiakasportaali</span>
                 </Link>
                 <Link
@@ -185,7 +190,7 @@ export default function Header() {
                   Ota yhteyttä
                 </Link>
               </motion.div>
-            </motion.div>
+            </motion.nav>
           </motion.div>
         )}
       </AnimatePresence>

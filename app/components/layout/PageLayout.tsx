@@ -33,7 +33,7 @@ export default function PageLayout({
       scale: 1,
       transition: {
         duration: 0.4,
-        ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number] // Custom cubic bezier for easeOut
+        ease: [0.25, 0.1, 0.25, 1]
       }
     },
     out: {
@@ -42,7 +42,7 @@ export default function PageLayout({
       scale: 0.98,
       transition: {
         duration: 0.3,
-        ease: [0.4, 0, 0.6, 1] as [number, number, number, number] // Custom cubic bezier for easeIn
+        ease: [0.4, 0, 0.6, 1]
       }
     }
   };
@@ -108,8 +108,8 @@ export function AnimatedPageLayout({
       case 'slide':
         return {
           initial: { opacity: 0, x: 50 },
-          in: { opacity: 1, x: 0, transition: { duration: 0.5, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number] } },
-          out: { opacity: 0, x: -50, transition: { duration: 0.3, ease: [0.4, 0, 0.6, 1] as [number, number, number, number] } }
+          in: { opacity: 1, x: 0, transition: { duration: 0.5, ease: [0.25, 0.1, 0.25, 1] } },
+          out: { opacity: 0, x: -50, transition: { duration: 0.3, ease: [0.4, 0, 0.6, 1] } }
         };
       case 'fade':
         return {
@@ -120,14 +120,14 @@ export function AnimatedPageLayout({
       case 'scale':
         return {
           initial: { opacity: 0, scale: 0.9 },
-          in: { opacity: 1, scale: 1, transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number] } },
-          out: { opacity: 0, scale: 1.1, transition: { duration: 0.3, ease: [0.4, 0, 0.6, 1] as [number, number, number, number] } }
+          in: { opacity: 1, scale: 1, transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] } },
+          out: { opacity: 0, scale: 1.1, transition: { duration: 0.3, ease: [0.4, 0, 0.6, 1] } }
         };
       default:
         return {
           initial: { opacity: 0, y: 20 },
-          in: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number] } },
-          out: { opacity: 0, y: -20, transition: { duration: 0.3, ease: [0.4, 0, 0.6, 1] as [number, number, number, number] } }
+          in: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] } },
+          out: { opacity: 0, y: -20, transition: { duration: 0.3, ease: [0.4, 0, 0.6, 1] } }
         };
     }
   };
@@ -180,8 +180,6 @@ export function CarPageLayout({
   children,
   carName,
   carMake,
-  _carModel,
-  _carYear,
   carSlug,
   className = '',
   pageKey = 'car'

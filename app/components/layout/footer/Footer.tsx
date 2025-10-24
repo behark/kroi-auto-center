@@ -41,9 +41,9 @@ export default function Footer() {
   };
 
   const socialIcons = [
-    { icon: Facebook, href: '#', label: 'Facebook', color: 'hover:text-blue-600' },
-    { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:text-pink-600' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-700' },
+    { icon: Facebook, href: 'https://facebook.com', label: 'Facebook', color: 'hover:text-blue-600' },
+    { icon: Instagram, href: 'https://instagram.com', label: 'Instagram', color: 'hover:text-pink-600' },
+    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn', color: 'hover:text-blue-700' },
   ];
 
   const quickLinks = [
@@ -70,7 +70,7 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
+      <div className="absolute inset-0 opacity-10" aria-hidden="true">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-600 to-pink-500 opacity-20"></div>
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-l from-pink-500 to-transparent rounded-full blur-3xl opacity-20"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-r from-purple-600 to-transparent rounded-full blur-3xl opacity-20"></div>
@@ -90,7 +90,7 @@ export default function Footer() {
             <motion.div variants={itemVariants} className="lg:col-span-1">
               <div className="flex items-center space-x-2 mb-6">
                 <div className="h-10 w-10 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg flex items-center justify-center">
-                  <Car className="h-6 w-6 text-white" />
+                  <Car className="h-6 w-6 text-white" aria-hidden="true" />
                 </div>
                 <span className="text-2xl font-bold">Kroi Auto Center</span>
               </div>
@@ -100,17 +100,19 @@ export default function Footer() {
               </p>
 
               {/* Social Media */}
-              <div className="flex space-x-4">
+              <div className="flex space-x-4" role="list" aria-label="Sosiaalisen median linkit">
                 {socialIcons.map(({ icon: Icon, href, label, color }) => (
                   <motion.a
                     key={label}
                     href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ scale: 1.1, y: -2 }}
                     whileTap={{ scale: 0.95 }}
                     className={`text-slate-400 ${color} transition-all duration-300 p-2 rounded-lg bg-slate-800/50 hover:bg-slate-700/50`}
                     aria-label={label}
                   >
-                    <Icon className="h-5 w-5" />
+                    <Icon className="h-5 w-5" aria-hidden="true" />
                   </motion.a>
                 ))}
               </div>
@@ -119,52 +121,56 @@ export default function Footer() {
             {/* Quick Links */}
             <motion.div variants={itemVariants}>
               <h3 className="text-lg font-semibold mb-6 text-white">Pikalinkit</h3>
-              <ul className="space-y-3">
-                {quickLinks.map((link) => (
-                  <li key={link.name}>
-                    <Link
-                      href={link.href}
-                      className="text-slate-300 hover:text-white transition-colors duration-300 flex items-center group"
-                    >
-                      <span className="w-0 group-hover:w-2 h-0.5 bg-gradient-to-r from-purple-500 to-pink-500 mr-0 group-hover:mr-2 transition-all duration-300"></span>
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <nav aria-label="Pikalinkit">
+                <ul className="space-y-3">
+                  {quickLinks.map((link) => (
+                    <li key={link.name}>
+                      <Link
+                        href={link.href}
+                        className="text-slate-300 hover:text-white transition-colors duration-300 flex items-center group"
+                      >
+                        <span className="w-0 group-hover:w-2 h-0.5 bg-gradient-to-r from-purple-500 to-pink-500 mr-0 group-hover:mr-2 transition-all duration-300" aria-hidden="true"></span>
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
             </motion.div>
 
             {/* Services */}
             <motion.div variants={itemVariants}>
               <h3 className="text-lg font-semibold mb-6 text-white">Palvelut</h3>
-              <ul className="space-y-3">
-                {services.map((service) => (
-                  <li key={service.name}>
-                    <Link
-                      href={service.href}
-                      className="text-slate-300 hover:text-white transition-colors duration-300 flex items-center group"
-                    >
-                      <span className="w-0 group-hover:w-2 h-0.5 bg-gradient-to-r from-purple-500 to-pink-500 mr-0 group-hover:mr-2 transition-all duration-300"></span>
-                      {service.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <nav aria-label="Palvelut">
+                <ul className="space-y-3">
+                  {services.map((service) => (
+                    <li key={service.name}>
+                      <Link
+                        href={service.href}
+                        className="text-slate-300 hover:text-white transition-colors duration-300 flex items-center group"
+                      >
+                        <span className="w-0 group-hover:w-2 h-0.5 bg-gradient-to-r from-purple-500 to-pink-500 mr-0 group-hover:mr-2 transition-all duration-300" aria-hidden="true"></span>
+                        {service.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
             </motion.div>
 
             {/* Contact Info */}
             <motion.div variants={itemVariants}>
               <h3 className="text-lg font-semibold mb-6 text-white">Yhteystiedot</h3>
-              <div className="space-y-4">
+              <address className="space-y-4 not-italic">
                 <div className="flex items-start space-x-3">
-                  <MapPin className="h-5 w-5 text-purple-400 mt-0.5 flex-shrink-0" />
+                  <MapPin className="h-5 w-5 text-purple-400 mt-0.5 flex-shrink-0" aria-hidden="true" />
                   <div>
                     <p className="text-slate-300">Teollisuuskatu 15</p>
                     <p className="text-slate-300">00510 Helsinki</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Phone className="h-5 w-5 text-purple-400 flex-shrink-0" />
+                  <Phone className="h-5 w-5 text-purple-400 flex-shrink-0" aria-hidden="true" />
                   <a
                     href="tel:+358401234567"
                     className="text-slate-300 hover:text-white transition-colors"
@@ -173,7 +179,7 @@ export default function Footer() {
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Mail className="h-5 w-5 text-purple-400 flex-shrink-0" />
+                  <Mail className="h-5 w-5 text-purple-400 flex-shrink-0" aria-hidden="true" />
                   <a
                     href="mailto:info@kroiautocenter.fi"
                     className="text-slate-300 hover:text-white transition-colors"
@@ -182,14 +188,14 @@ export default function Footer() {
                   </a>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <Clock className="h-5 w-5 text-purple-400 mt-0.5 flex-shrink-0" />
+                  <Clock className="h-5 w-5 text-purple-400 mt-0.5 flex-shrink-0" aria-hidden="true" />
                   <div className="text-slate-300">
                     <p>Ma-Pe: 9:00-18:00</p>
                     <p>La: 10:00-15:00</p>
                     <p>Su: Suljettu</p>
                   </div>
                 </div>
-              </div>
+              </address>
             </motion.div>
           </div>
 
@@ -205,17 +211,19 @@ export default function Footer() {
               </p>
 
               {/* Legal Links */}
-              <div className="flex flex-wrap gap-6">
-                {legal.map((link) => (
-                  <Link
-                    key={link.name}
-                    href={link.href}
-                    className="text-slate-400 hover:text-white transition-colors text-sm"
-                  >
-                    {link.name}
-                  </Link>
-                ))}
-              </div>
+              <nav aria-label="Juridiset linkit">
+                <div className="flex flex-wrap gap-6">
+                  {legal.map((link) => (
+                    <Link
+                      key={link.name}
+                      href={link.href}
+                      className="text-slate-400 hover:text-white transition-colors text-sm"
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
+                </div>
+              </nav>
             </div>
           </motion.div>
         </div>
@@ -231,7 +239,7 @@ export default function Footer() {
           className="absolute top-4 right-4 bg-gradient-to-r from-purple-600 to-pink-500 text-white p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
           aria-label="Takaisin ylös"
         >
-          <ArrowUp className="h-5 w-5" />
+          <ArrowUp className="h-5 w-5" aria-hidden="true" />
         </motion.button>
       </motion.div>
     </footer>
