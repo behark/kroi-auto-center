@@ -29,16 +29,22 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "kroii.onrender.com",
-        pathname: "/cars/**", // Local cars folder after deploy
+        pathname: "/cars/**", // Local cars folder (if migrating from Render)
       },
       {
         protocol: "https",
         hostname: "*.render.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "*.vercel.app",
+        pathname: "/**", // Vercel preview/production domains
+      },
     ],
     loader: "default",
-    unoptimized: true, // 🚀 Serve local images directly, prevents memory spikes
+    // Enable Vercel's image optimization for better performance
+    unoptimized: false,
   },
 
   compiler: {
@@ -51,9 +57,6 @@ const nextConfig: NextConfig = {
 
   compress: true,
   poweredByHeader: false,
-
-  // ✅ Compatible output for Render
-  output: "standalone",
 
   // Prevent slow builds from timing out
   staticPageGenerationTimeout: 120,

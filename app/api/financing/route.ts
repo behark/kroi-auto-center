@@ -1,19 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
-import { createClient } from '@sanity/client';
 import { Resend } from 'resend';
+import fs from 'fs/promises';
+import path from 'path';
 
-// Initialize Sanity client
-const sanityClient = createClient({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET!,
-  token: process.env.SANITY_API_TOKEN,
-  useCdn: false,
-  apiVersion: '2024-01-01'
-});
-
-// Initialize Resend
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy initialize Resend to avoid build errors
+function getResend() {
+  return process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
+}
 
 // Validation schema
 const financingSchema = z.object({
@@ -118,46 +112,53 @@ export async function POST(request: NextRequest) {
       data.loanDetails.loanTerm
     );
 
-    // Save to Sanity
-    const application = await sanityClient.create({
-      _type: 'financingApplication',
+    // Save to JSON file
+    const application = {
+      id: Date.now().toString(),
+      type: 'financingApplication',
       applicant: data.applicant,
       employment: data.employment,
-      loanDetails: {
-        ...data.loanDetails,
-        car: data.loanDetails.carId ? {
-          _type: 'reference',
-          _ref: data.loanDetails.carId
-        } : undefined
-      },
+      loanDetails: data.loanDetails,
       status: 'submitted',
       gdprConsent: data.gdprConsent,
       creditCheckConsent: data.creditCheckConsent,
       createdAt: new Date().toISOString()
-    });
+    };
 
-    // Also create a lead for follow-up
-    await sanityClient.create({
-      _type: 'lead',
-      name: `${data.applicant.firstName} ${data.applicant.lastName}`,
-      email: data.applicant.email,
-      phone: data.applicant.phone,
-      message: `Financing application for €${data.loanDetails.loanAmount} over ${data.loanDetails.loanTerm} months`,
-      source: 'financing',
-      status: 'new',
-      carInterest: data.loanDetails.carId ? {
-        _type: 'reference',
-        _ref: data.loanDetails.carId
-      } : undefined,
-      gdprConsent: data.gdprConsent,
-      createdAt: new Date().toISOString()
-    });
+    // Save to data/financing-applications.json
+    try {
+      const dataDir = path.join(process.cwd(), 'data');
+      const applicationsFile = path.join(dataDir, 'financing-applications.json');
+
+      // Ensure data directory exists
+      await fs.mkdir(dataDir, { recursive: true });
+
+      // Read existing applications or create new array
+      let applications = [];
+      try {
+        const fileContent = await fs.readFile(applicationsFile, 'utf-8');
+        applications = JSON.parse(fileContent);
+      } catch (error) {
+        // File doesn't exist yet, that's ok
+      }
+
+      // Add new application
+      applications.push(application);
+
+      // Write back to file
+      await fs.writeFile(applicationsFile, JSON.stringify(applications, null, 2));
+    } catch (error) {
+      console.error('Error saving financing application to file:', error);
+      // Don't fail the request if file save fails
+    }
 
     // Send email notifications
     if (process.env.RESEND_API_KEY) {
-      try {
-        // Email to admin with application details
-        await resend.emails.send({
+      const resend = getResend();
+      if (resend) {
+        try {
+          // Email to admin with application details
+          await resend.emails.send({
           from: process.env.FROM_EMAIL || 'noreply@kroiautocenter.fi',
           to: process.env.CONTACT_EMAIL || 'kroiautocenter@gmail.com',
           subject: `New Financing Application - ${data.applicant.firstName} ${data.applicant.lastName}`,
@@ -182,7 +183,7 @@ export async function POST(request: NextRequest) {
             <p><strong>Estimated Monthly Payment:</strong> €${estimatedPayment}</p>
 
             <hr>
-            <p><small>Application ID: ${application._id}</small></p>
+            <p><small>Application ID: ${application.id}</small></p>
           `
         });
 
@@ -228,18 +229,19 @@ export async function POST(request: NextRequest) {
             Kroi Auto Center Finance Team</p>
 
             <hr>
-            <p><small>Application Reference: ${application._id}</small></p>
+            <p><small>Application Reference: ${application.id}</small></p>
           `
         });
-      } catch (emailError) {
-        console.error('Email sending failed:', emailError);
+        } catch (emailError) {
+          console.error('Email sending failed:', emailError);
+        }
       }
     }
 
     return NextResponse.json({
       success: true,
       message: 'Financing application submitted successfully',
-      applicationId: application._id,
+      applicationId: application.id,
       estimatedMonthlyPayment: estimatedPayment,
       note: 'Your application is under review. We will contact you within 1-2 business days.'
     });

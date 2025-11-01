@@ -1,27 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
-import { createClient } from '@sanity/client';
 import { Resend } from 'resend';
+import fs from 'fs/promises';
+import path from 'path';
 
-// Type for Sanity booking document
-interface SanityBooking {
-  _id: string;
+// Type for booking document
+interface Booking {
+  id: string;
   preferredTime: string;
   scheduledDate: string;
   [key: string]: unknown;
 }
 
-// Initialize Sanity client
-const sanityClient = createClient({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET!,
-  token: process.env.SANITY_API_TOKEN,
-  useCdn: false,
-  apiVersion: '2024-01-01'
-});
-
-// Initialize Resend
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy initialize Resend to avoid build errors
+function getResend() {
+  return process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
+}
 
 // Validation schema
 const testDriveSchema = z.object({
@@ -83,69 +77,66 @@ export async function POST(request: NextRequest) {
 
     const data = validationResult.data;
 
-    // Check if the slot is available (simple check - could be enhanced)
-    const existingBookings = await sanityClient.fetch(
-      `*[_type == "testDriveBooking" &&
-        scheduledDate == $date &&
-        preferredTime == $time &&
-        status in ["pending", "confirmed"]]`,
-      {
-        date: data.scheduledDate.toISOString(),
-        time: data.preferredTime
-      }
+    // Check if the slot is available
+    const dataDir = path.join(process.cwd(), 'data');
+    const bookingsFile = path.join(dataDir, 'test-drive-bookings.json');
+
+    // Ensure data directory exists
+    await fs.mkdir(dataDir, { recursive: true });
+
+    // Read existing bookings
+    let existingBookings: Booking[] = [];
+    try {
+      const fileContent = await fs.readFile(bookingsFile, 'utf-8');
+      existingBookings = JSON.parse(fileContent);
+    } catch (error) {
+      // File doesn't exist yet, that's ok
+    }
+
+    // Check availability for the time slot
+    const slotBookings = existingBookings.filter(booking =>
+      booking.scheduledDate === data.scheduledDate.toISOString() &&
+      booking.preferredTime === data.preferredTime &&
+      ['pending', 'confirmed'].includes(booking.status as string)
     );
 
-    if (existingBookings.length >= 2) { // Max 2 bookings per time slot
+    if (slotBookings.length >= 2) { // Max 2 bookings per time slot
       return NextResponse.json(
         { error: 'This time slot is no longer available. Please choose another time.' },
         { status: 409 }
       );
     }
 
-    // Save to Sanity
-    const booking = await sanityClient.create({
-      _type: 'testDriveBooking',
+    // Save booking to JSON file
+    const booking: Booking = {
+      id: Date.now().toString(),
+      type: 'testDriveBooking',
       customer: data.customer,
-      car: {
-        _type: 'reference',
-        _ref: data.carId
-      },
+      carId: data.carId,
       scheduledDate: data.scheduledDate.toISOString(),
       preferredTime: data.preferredTime,
       status: 'pending',
-      notes: data.notes,
+      notes: data.notes || '',
       gdprConsent: data.gdprConsent,
       createdAt: new Date().toISOString()
-    });
+    };
 
-    // Also create a lead for follow-up
-    await sanityClient.create({
-      _type: 'lead',
-      name: data.customer.name,
-      email: data.customer.email,
-      phone: data.customer.phone,
-      message: `Test drive booking for ${data.scheduledDate.toLocaleDateString('fi-FI')} - ${data.preferredTime}`,
-      source: 'test-drive',
-      status: 'new',
-      carInterest: {
-        _type: 'reference',
-        _ref: data.carId
-      },
-      gdprConsent: data.gdprConsent,
-      createdAt: new Date().toISOString()
-    });
+    existingBookings.push(booking);
+    await fs.writeFile(bookingsFile, JSON.stringify(existingBookings, null, 2));
 
     // Send email notifications
     if (process.env.RESEND_API_KEY) {
-      const timeSlots = {
-        morning: '9:00 - 12:00',
-        afternoon: '12:00 - 16:00',
-        evening: '16:00 - 19:00'
-      };
+      const resend = getResend();
+      if (resend) {
+        const timeSlots = {
+          morning: '9:00 - 12:00',
+          afternoon: '12:00 - 16:00',
+          evening: '16:00 - 19:00'
+        };
 
-      try {
-        // Email to admin
-        await resend.emails.send({
+        try {
+          // Email to admin
+          await resend.emails.send({
           from: process.env.FROM_EMAIL || 'noreply@kroiautocenter.fi',
           to: process.env.CONTACT_EMAIL || 'kroiautocenter@gmail.com',
           subject: `New Test Drive Booking - ${data.customer.name}`,
@@ -186,8 +177,9 @@ export async function POST(request: NextRequest) {
             <p>Best regards,<br>Kroi Auto Center Team</p>
           `
         });
-      } catch (emailError) {
-        console.error('Email sending failed:', emailError);
+        } catch (emailError) {
+          console.error('Email sending failed:', emailError);
+        }
       }
     }
 
@@ -221,22 +213,31 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    // Get existing bookings for the date
-    const bookings = await sanityClient.fetch(
-      `*[_type == "testDriveBooking" &&
-        scheduledDate >= $startDate &&
-        scheduledDate < $endDate &&
-        status in ["pending", "confirmed"]] {
-        preferredTime
-      }`,
-      {
-        startDate: new Date(date).toISOString(),
-        endDate: new Date(new Date(date).getTime() + 24 * 60 * 60 * 1000).toISOString()
-      }
-    );
+    // Read existing bookings from JSON file
+    const dataDir = path.join(process.cwd(), 'data');
+    const bookingsFile = path.join(dataDir, 'test-drive-bookings.json');
+
+    let bookings: Booking[] = [];
+    try {
+      const fileContent = await fs.readFile(bookingsFile, 'utf-8');
+      const allBookings: Booking[] = JSON.parse(fileContent);
+
+      const startDate = new Date(date);
+      const endDate = new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
+
+      bookings = allBookings.filter(booking => {
+        const bookingDate = new Date(booking.scheduledDate);
+        return bookingDate >= startDate &&
+               bookingDate < endDate &&
+               ['pending', 'confirmed'].includes(booking.status as string);
+      });
+    } catch (error) {
+      // File doesn't exist yet, no bookings
+      bookings = [];
+    }
 
     // Count bookings per time slot
-    const slotCounts = bookings.reduce((acc: Record<string, number>, booking: SanityBooking) => {
+    const slotCounts = bookings.reduce((acc: Record<string, number>, booking: Booking) => {
       acc[booking.preferredTime] = (acc[booking.preferredTime] || 0) + 1;
       return acc;
     }, {});
