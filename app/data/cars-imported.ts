@@ -5,7 +5,7 @@
 
 import { Car } from './cars';
 
-export const cars: Car[] = [
+export const importedCars: Car[] = [
   {
     "id": "audi-q3-15-900-",
     "slug": "audi-q3-15-900-",
@@ -30,13 +30,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -133,13 +127,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -230,13 +218,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -333,13 +315,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -418,13 +394,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -533,13 +503,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -642,13 +606,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -745,13 +703,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -813,7 +765,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "170,000 km",
     "kmNumber": 170000,
-    "image": "/cars/seat-tarraco-2-0-1.jpeg",
+    "image": "/cars/seat-tarraco.jpeg",
     "description": "Seat Tarraco vuodelta 2020.",
     "detailedDescription": [
       "Tämä Seat Seat Tarraco on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -824,13 +776,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -872,64 +818,10 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/seat-tarraco-2-0-1.jpeg",
+        "url": "/cars/seat-tarraco.jpeg",
         "altText": "seat-tarraco",
         "order": 1,
         "isPrimary": true
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-2.jpeg",
-        "altText": "seat-tarraco",
-        "order": 2,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-3.jpeg",
-        "altText": "seat-tarraco",
-        "order": 3,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-4.jpeg",
-        "altText": "seat-tarraco",
-        "order": 4,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-5.jpeg",
-        "altText": "seat-tarraco",
-        "order": 5,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-6.jpeg",
-        "altText": "seat-tarraco",
-        "order": 6,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-7.jpeg",
-        "altText": "seat-tarraco",
-        "order": 7,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-8.jpeg",
-        "altText": "seat-tarraco",
-        "order": 8,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-9.jpeg",
-        "altText": "seat-tarraco",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0.jpeg",
-        "altText": "seat-tarraco",
-        "order": 10,
-        "isPrimary": false
       }
     ]
   },
@@ -957,13 +849,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -1108,13 +994,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -1217,13 +1097,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -1299,48 +1173,6 @@ export const cars: Car[] = [
         "altText": "volkswagen-tiguan",
         "order": 6,
         "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-6.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 7,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-7.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 8,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-8.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-9.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 10,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-10.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 11,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-11.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 12,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-12.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 13,
-        "isPrimary": false
       }
     ]
   },
@@ -1357,7 +1189,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "200,000 km",
     "kmNumber": 200000,
-    "image": "/cars/volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-1.webp",
+    "image": "/cars/volkswagen-tiguan-allspace.jpeg",
     "description": "Volkswagen Tiguan Allspace vuodelta 2019.",
     "detailedDescription": [
       "Tämä Volkswagen Volkswagen Tiguan Allspace on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -1368,13 +1200,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -1416,40 +1242,10 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-1.webp",
+        "url": "/cars/volkswagen-tiguan-allspace.jpeg",
         "altText": "volkswagen-tiguan-allspace",
         "order": 1,
         "isPrimary": true
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-2.webp",
-        "altText": "volkswagen-tiguan-allspace",
-        "order": 2,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-3.webp",
-        "altText": "volkswagen-tiguan-allspace",
-        "order": 3,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-4.webp",
-        "altText": "volkswagen-tiguan-allspace",
-        "order": 4,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-5.webp",
-        "altText": "volkswagen-tiguan-allspace",
-        "order": 5,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000.webp",
-        "altText": "volkswagen-tiguan-allspace",
-        "order": 6,
-        "isPrimary": false
       }
     ]
   },
@@ -1477,13 +1273,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -1622,13 +1412,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -1692,18 +1476,6 @@ export const cars: Car[] = [
         "altText": "volkswagen-t-roc",
         "order": 4,
         "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-t-roc-4.jpg",
-        "altText": "volkswagen-t-roc",
-        "order": 5,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-t-roc-5.jpg",
-        "altText": "volkswagen-t-roc",
-        "order": 6,
-        "isPrimary": false
       }
     ]
   },
@@ -1720,7 +1492,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "134,000 km",
     "kmNumber": 134000,
-    "image": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-1.jpg",
+    "image": "/cars/audi-a4.jpeg",
     "description": "Audi A4 vuodelta 2020.",
     "detailedDescription": [
       "Tämä Audi Audi A4 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -1731,13 +1503,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -1779,64 +1545,10 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-1.jpg",
+        "url": "/cars/audi-a4.jpeg",
         "altText": "audi-a4",
         "order": 1,
         "isPrimary": true
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-2.jpg",
-        "altText": "audi-a4",
-        "order": 2,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-3.jpg",
-        "altText": "audi-a4",
-        "order": 3,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-4.jpg",
-        "altText": "audi-a4",
-        "order": 4,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-5.jpg",
-        "altText": "audi-a4",
-        "order": 5,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw.jpg",
-        "altText": "audi-a4",
-        "order": 6,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-1.jpg",
-        "altText": "audi-a4",
-        "order": 7,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-10.jpg",
-        "altText": "audi-a4",
-        "order": 8,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-11.jpg",
-        "altText": "audi-a4",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-12.jpg",
-        "altText": "audi-a4",
-        "order": 10,
-        "isPrimary": false
       }
     ]
   },
@@ -1864,13 +1576,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -1946,6 +1652,18 @@ export const cars: Car[] = [
         "altText": "volkswagen-t-roc",
         "order": 6,
         "isPrimary": false
+      },
+      {
+        "url": "/cars/volkswagen-t-roc-6.jpg",
+        "altText": "volkswagen-t-roc",
+        "order": 7,
+        "isPrimary": false
+      },
+      {
+        "url": "/cars/volkswagen-t-roc-7.jpg",
+        "altText": "volkswagen-t-roc",
+        "order": 8,
+        "isPrimary": false
       }
     ]
   },
@@ -1962,7 +1680,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "139,000 km",
     "kmNumber": 139000,
-    "image": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-1.jpg",
+    "image": "/cars/audi-q2.jpeg",
     "description": "Audi Q2 vuodelta 2020.",
     "detailedDescription": [
       "Tämä Audi Audi Q2 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -1973,13 +1691,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -2021,64 +1733,10 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-1.jpg",
+        "url": "/cars/audi-q2.jpeg",
         "altText": "audi-q2",
         "order": 1,
         "isPrimary": true
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-2.jpg",
-        "altText": "audi-q2",
-        "order": 2,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-3.jpg",
-        "altText": "audi-q2",
-        "order": 3,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-4.jpg",
-        "altText": "audi-q2",
-        "order": 4,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-5.jpg",
-        "altText": "audi-q2",
-        "order": 5,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw.jpg",
-        "altText": "audi-q2",
-        "order": 6,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-1.jpg",
-        "altText": "audi-q2",
-        "order": 7,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-10.jpg",
-        "altText": "audi-q2",
-        "order": 8,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-11.jpg",
-        "altText": "audi-q2",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-12.jpg",
-        "altText": "audi-q2",
-        "order": 10,
-        "isPrimary": false
       }
     ]
   },
@@ -2106,13 +1764,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -2200,36 +1852,6 @@ export const cars: Car[] = [
         "altText": "volkswagen-tiguan",
         "order": 8,
         "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-8.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-9.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 10,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-10.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 11,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-11.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 12,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-tiguan-12.jpg",
-        "altText": "volkswagen-tiguan",
-        "order": 13,
-        "isPrimary": false
       }
     ]
   },
@@ -2246,7 +1868,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "99,000 km",
     "kmNumber": 99000,
-    "image": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-1.jpg",
+    "image": "/cars/audi-a4.jpeg",
     "description": "Audi A4 vuodelta 2019.",
     "detailedDescription": [
       "Tämä Audi Audi A4 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -2257,13 +1879,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -2305,64 +1921,10 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-1.jpg",
+        "url": "/cars/audi-a4.jpeg",
         "altText": "audi-a4",
         "order": 1,
         "isPrimary": true
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-2.jpg",
-        "altText": "audi-a4",
-        "order": 2,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-3.jpg",
-        "altText": "audi-a4",
-        "order": 3,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-4.jpg",
-        "altText": "audi-a4",
-        "order": 4,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw-5.jpg",
-        "altText": "audi-a4",
-        "order": 5,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-20-40tdi-quattro-s-tronic-190kw.jpg",
-        "altText": "audi-a4",
-        "order": 6,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-1.jpg",
-        "altText": "audi-a4",
-        "order": 7,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-10.jpg",
-        "altText": "audi-a4",
-        "order": 8,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-11.jpg",
-        "altText": "audi-a4",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/audi-a4-2016-12.jpg",
-        "altText": "audi-a4",
-        "order": 10,
-        "isPrimary": false
       }
     ]
   },
@@ -2390,13 +1952,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -2523,13 +2079,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -2674,13 +2224,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -2760,7 +2304,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "223,000 km",
     "kmNumber": 223000,
-    "image": "/cars/seat-tarraco-2-0-1.jpeg",
+    "image": "/cars/seat-tarraco.jpeg",
     "description": "Seat Tarraco vuodelta 2019.",
     "detailedDescription": [
       "Tämä Seat Seat Tarraco on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -2771,13 +2315,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -2819,64 +2357,10 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/seat-tarraco-2-0-1.jpeg",
+        "url": "/cars/seat-tarraco.jpeg",
         "altText": "seat-tarraco",
         "order": 1,
         "isPrimary": true
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-2.jpeg",
-        "altText": "seat-tarraco",
-        "order": 2,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-3.jpeg",
-        "altText": "seat-tarraco",
-        "order": 3,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-4.jpeg",
-        "altText": "seat-tarraco",
-        "order": 4,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-5.jpeg",
-        "altText": "seat-tarraco",
-        "order": 5,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-6.jpeg",
-        "altText": "seat-tarraco",
-        "order": 6,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-7.jpeg",
-        "altText": "seat-tarraco",
-        "order": 7,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-8.jpeg",
-        "altText": "seat-tarraco",
-        "order": 8,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0-9.jpeg",
-        "altText": "seat-tarraco",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/seat-tarraco-2-0.jpeg",
-        "altText": "seat-tarraco",
-        "order": 10,
-        "isPrimary": false
       }
     ]
   },
@@ -2904,13 +2388,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -2980,36 +2458,6 @@ export const cars: Car[] = [
         "altText": "volkswagen-passat",
         "order": 5,
         "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-passat-5.jpg",
-        "altText": "volkswagen-passat",
-        "order": 6,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-passat-6.jpg",
-        "altText": "volkswagen-passat",
-        "order": 7,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-passat-7.jpg",
-        "altText": "volkswagen-passat",
-        "order": 8,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-passat-8.jpg",
-        "altText": "volkswagen-passat",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-passat-9.jpg",
-        "altText": "volkswagen-passat",
-        "order": 10,
-        "isPrimary": false
       }
     ]
   },
@@ -3026,7 +2474,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "120,500 km",
     "kmNumber": 120500,
-    "image": "/cars/volkswagen-t-roc.jpg",
+    "image": "/cars/volkswagen-t-roc.jpeg",
     "description": "Volkswagen T-Roc vuodelta 2020.",
     "detailedDescription": [
       "Tämä Volkswagen Volkswagen T-Roc on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -3037,13 +2485,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -3085,40 +2527,10 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/volkswagen-t-roc.jpg",
+        "url": "/cars/volkswagen-t-roc.jpeg",
         "altText": "volkswagen-t-roc",
         "order": 1,
         "isPrimary": true
-      },
-      {
-        "url": "/cars/volkswagen-t-roc-1.jpg",
-        "altText": "volkswagen-t-roc",
-        "order": 2,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-t-roc-2.jpg",
-        "altText": "volkswagen-t-roc",
-        "order": 3,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-t-roc-3.jpg",
-        "altText": "volkswagen-t-roc",
-        "order": 4,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-t-roc-4.jpg",
-        "altText": "volkswagen-t-roc",
-        "order": 5,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/volkswagen-t-roc-5.jpg",
-        "altText": "volkswagen-t-roc",
-        "order": 6,
-        "isPrimary": false
       }
     ]
   },
@@ -3146,13 +2558,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -3255,13 +2661,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -3400,13 +2800,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -3551,13 +2945,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -3654,13 +3042,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -3745,13 +3127,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -3848,13 +3224,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -4005,13 +3375,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -4163,7 +3527,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "164,000 km",
     "kmNumber": 164000,
-    "image": "/cars/bmw-518.jpg",
+    "image": "/cars/bmw-518-2023.jpg",
     "description": "BMW 518 vuodelta 2019.",
     "detailedDescription": [
       "Tämä BMW BMW 518 2023 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -4174,13 +3538,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -4222,27 +3580,21 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/bmw-518.jpg",
+        "url": "/cars/bmw-518-2023.jpg",
         "altText": "bmw-518-2023",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/bmw-518-2023.jpg",
+        "url": "/cars/bmw-518-2023-1.jpg",
         "altText": "bmw-518-2023",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-518-2023-1.jpg",
-        "altText": "bmw-518-2023",
-        "order": 3,
-        "isPrimary": false
-      },
-      {
         "url": "/cars/bmw-518-2023-2.jpg",
         "altText": "bmw-518-2023",
-        "order": 4,
+        "order": 3,
         "isPrimary": false
       }
     ]
@@ -4260,7 +3612,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "178,000 km",
     "kmNumber": 178000,
-    "image": "/cars/volkswagen-tiguan.jpg",
+    "image": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic.jpeg",
     "description": "Audi A6 vuodelta 2024.",
     "detailedDescription": [
       "Tämä Audi Audi A6 Sedan Business 40 TDI quatro S tronic on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -4271,13 +3623,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -4319,63 +3665,57 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/volkswagen-tiguan.jpg",
+        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic.jpeg",
         "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic.jpeg",
+        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-1.jpeg",
         "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-1.jpeg",
+        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-2.jpeg",
         "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-2.jpeg",
+        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-3.jpeg",
         "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-3.jpeg",
+        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-4.jpeg",
         "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-4.jpeg",
+        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-5.jpeg",
         "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-5.jpeg",
+        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-6.jpeg",
         "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-6.jpeg",
+        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-7.jpeg",
         "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-7.jpeg",
-        "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
         "url": "/cars/audi-a6-sedan-business-40-tdi-quatro-s-tronic-8.jpeg",
         "altText": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
-        "order": 10,
+        "order": 9,
         "isPrimary": false
       }
     ]
@@ -4404,13 +3744,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -4537,13 +3871,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -4653,7 +3981,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "282,000 km",
     "kmNumber": 282000,
-    "image": "/cars/audi-q3-15-900-.webp",
+    "image": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa.jpeg",
     "description": "BMW 518 vuodelta 2019.",
     "detailedDescription": [
       "Tämä BMW BMW 518 G30 Sedan 518d A Business TULOSSA on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -4664,13 +3992,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -4712,63 +4034,57 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-q3-15-900-.webp",
+        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa.jpeg",
         "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa.jpeg",
+        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-1.jpeg",
         "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-1.jpeg",
+        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-2.jpeg",
         "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-2.jpeg",
+        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-3.jpeg",
         "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-3.jpeg",
+        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-4.jpeg",
         "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-4.jpeg",
+        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-5.jpeg",
         "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-5.jpeg",
+        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-6.jpeg",
         "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-6.jpeg",
+        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-7.jpeg",
         "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-7.jpeg",
-        "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
-        "order": 9,
-        "isPrimary": false
-      },
-      {
         "url": "/cars/bmw-518-g30-sedan-518d-a-business-tulossa-8.jpeg",
         "altText": "bmw-518-g30-sedan-518d-a-business-tulossa",
-        "order": 10,
+        "order": 9,
         "isPrimary": false
       }
     ]
@@ -4797,13 +4113,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -4924,13 +4234,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -4972,49 +4276,49 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/volkswagen-golf-allstar-1.jpeg",
+        "url": "/cars/volkswagen-golf-allstar.jpeg",
         "altText": "volkswagen-golf-allstar",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/volkswagen-golf-allstar-2.jpeg",
+        "url": "/cars/volkswagen-golf-allstar-1.jpeg",
         "altText": "volkswagen-golf-allstar",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/volkswagen-golf-allstar-3.jpeg",
+        "url": "/cars/volkswagen-golf-allstar-2.jpeg",
         "altText": "volkswagen-golf-allstar",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/volkswagen-golf-allstar-4.jpeg",
+        "url": "/cars/volkswagen-golf-allstar-3.jpeg",
         "altText": "volkswagen-golf-allstar",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/volkswagen-golf-allstar-5.jpeg",
+        "url": "/cars/volkswagen-golf-allstar-4.jpeg",
         "altText": "volkswagen-golf-allstar",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/volkswagen-golf-allstar-6.jpeg",
+        "url": "/cars/volkswagen-golf-allstar-5.jpeg",
         "altText": "volkswagen-golf-allstar",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/volkswagen-golf-allstar-7.jpeg",
+        "url": "/cars/volkswagen-golf-allstar-6.jpeg",
         "altText": "volkswagen-golf-allstar",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/volkswagen-golf-allstar.jpeg",
+        "url": "/cars/volkswagen-golf-allstar-7.jpeg",
         "altText": "volkswagen-golf-allstar",
         "order": 8,
         "isPrimary": false
@@ -5045,13 +4349,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -5093,117 +4391,63 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/skoda-superb-1.jpeg",
+        "url": "/cars/skoda-superb.jpeg",
         "altText": "skoda-superb",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/skoda-superb-2-1.jpeg",
+        "url": "/cars/skoda-superb-1.jpeg",
         "altText": "skoda-superb",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-2.jpeg",
+        "url": "/cars/skoda-superb-2.jpeg",
         "altText": "skoda-superb",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-3.jpeg",
+        "url": "/cars/skoda-superb-3.jpeg",
         "altText": "skoda-superb",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-4.jpeg",
+        "url": "/cars/skoda-superb-4.jpeg",
         "altText": "skoda-superb",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-5.jpeg",
+        "url": "/cars/skoda-superb-5.jpeg",
         "altText": "skoda-superb",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-6.jpeg",
+        "url": "/cars/skoda-superb-6.jpeg",
         "altText": "skoda-superb",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-7.jpeg",
+        "url": "/cars/skoda-superb-7.jpeg",
         "altText": "skoda-superb",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-8.jpeg",
+        "url": "/cars/skoda-superb-8.jpeg",
         "altText": "skoda-superb",
         "order": 9,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-9.jpeg",
-        "altText": "skoda-superb",
-        "order": 10,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-2.jpeg",
-        "altText": "skoda-superb",
-        "order": 11,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-3.jpeg",
-        "altText": "skoda-superb",
-        "order": 12,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-4.jpeg",
-        "altText": "skoda-superb",
-        "order": 13,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-5.jpeg",
-        "altText": "skoda-superb",
-        "order": 14,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-6.jpeg",
-        "altText": "skoda-superb",
-        "order": 15,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-7.jpeg",
-        "altText": "skoda-superb",
-        "order": 16,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-8.jpeg",
-        "altText": "skoda-superb",
-        "order": 17,
-        "isPrimary": false
-      },
-      {
         "url": "/cars/skoda-superb-9.jpeg",
         "altText": "skoda-superb",
-        "order": 18,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb.jpeg",
-        "altText": "skoda-superb",
-        "order": 19,
+        "order": 10,
         "isPrimary": false
       }
     ]
@@ -5221,7 +4465,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "372,000 km",
     "kmNumber": 372000,
-    "image": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro.jpeg",
+    "image": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro.jpeg",
     "description": "Audi A6 vuodelta 2016.",
     "detailedDescription": [
       "Tämä Audi Audi A6 Sedan Business Sport 3.0 V6 TDI 160 kW quattro on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -5232,13 +4476,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -5280,56 +4518,56 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-1.jpeg",
-        "altText": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+        "url": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro.jpeg",
+        "altText": "audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-2.jpeg",
-        "altText": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+        "url": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-1.jpeg",
+        "altText": "audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-3.jpeg",
-        "altText": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+        "url": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-2.jpeg",
+        "altText": "audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-4.jpeg",
-        "altText": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+        "url": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-3.jpeg",
+        "altText": "audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-5.jpeg",
-        "altText": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+        "url": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-4.jpeg",
+        "altText": "audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-6.jpeg",
-        "altText": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+        "url": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-5.jpeg",
+        "altText": "audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-7.jpeg",
-        "altText": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+        "url": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-6.jpeg",
+        "altText": "audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-8.jpeg",
-        "altText": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+        "url": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-7.jpeg",
+        "altText": "audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro.jpeg",
-        "altText": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+        "url": "/cars/audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-8.jpeg",
+        "altText": "audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro",
         "order": 9,
         "isPrimary": false
       }
@@ -5359,13 +4597,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -5407,61 +4639,61 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/bmw-320-1.jpeg",
+        "url": "/cars/bmw-320.jpeg",
         "altText": "bmw-320",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/bmw-320-2.jpeg",
+        "url": "/cars/bmw-320-1.jpeg",
         "altText": "bmw-320",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-320-3.jpeg",
+        "url": "/cars/bmw-320-2.jpeg",
         "altText": "bmw-320",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-320-4.jpeg",
+        "url": "/cars/bmw-320-3.jpeg",
         "altText": "bmw-320",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-320-5.jpeg",
+        "url": "/cars/bmw-320-4.jpeg",
         "altText": "bmw-320",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-320-6.jpeg",
+        "url": "/cars/bmw-320-5.jpeg",
         "altText": "bmw-320",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-320-7.jpeg",
+        "url": "/cars/bmw-320-6.jpeg",
         "altText": "bmw-320",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-320-8.jpeg",
+        "url": "/cars/bmw-320-7.jpeg",
         "altText": "bmw-320",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-320-9.jpeg",
+        "url": "/cars/bmw-320-8.jpeg",
         "altText": "bmw-320",
         "order": 9,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-320.jpeg",
+        "url": "/cars/bmw-320-9.jpeg",
         "altText": "bmw-320",
         "order": 10,
         "isPrimary": false
@@ -5492,13 +4724,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -5540,55 +4766,55 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/mercedes-benz-e-220d-premium-business-1.jpeg",
+        "url": "/cars/mercedes-benz-e-220d-premium-business.jpeg",
         "altText": "mercedes-benz-e-220d-premium-business",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/mercedes-benz-e-220d-premium-business-2.jpeg",
+        "url": "/cars/mercedes-benz-e-220d-premium-business-1.jpeg",
         "altText": "mercedes-benz-e-220d-premium-business",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e-220d-premium-business-3.jpeg",
+        "url": "/cars/mercedes-benz-e-220d-premium-business-2.jpeg",
         "altText": "mercedes-benz-e-220d-premium-business",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e-220d-premium-business-4.jpeg",
+        "url": "/cars/mercedes-benz-e-220d-premium-business-3.jpeg",
         "altText": "mercedes-benz-e-220d-premium-business",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e-220d-premium-business-5.jpeg",
+        "url": "/cars/mercedes-benz-e-220d-premium-business-4.jpeg",
         "altText": "mercedes-benz-e-220d-premium-business",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e-220d-premium-business-6.jpeg",
+        "url": "/cars/mercedes-benz-e-220d-premium-business-5.jpeg",
         "altText": "mercedes-benz-e-220d-premium-business",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e-220d-premium-business-7.jpeg",
+        "url": "/cars/mercedes-benz-e-220d-premium-business-6.jpeg",
         "altText": "mercedes-benz-e-220d-premium-business",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e-220d-premium-business-8.jpeg",
+        "url": "/cars/mercedes-benz-e-220d-premium-business-7.jpeg",
         "altText": "mercedes-benz-e-220d-premium-business",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e-220d-premium-business.jpeg",
+        "url": "/cars/mercedes-benz-e-220d-premium-business-8.jpeg",
         "altText": "mercedes-benz-e-220d-premium-business",
         "order": 9,
         "isPrimary": false
@@ -5619,13 +4845,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -5667,55 +4887,55 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-1.jpeg",
+        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive.jpeg",
         "altText": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-2.jpeg",
+        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-1.jpeg",
         "altText": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-3.jpeg",
+        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-2.jpeg",
         "altText": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-4.jpeg",
+        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-3.jpeg",
         "altText": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-5.jpeg",
+        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-4.jpeg",
         "altText": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-6.jpeg",
+        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-5.jpeg",
         "altText": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-7.jpeg",
+        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-6.jpeg",
         "altText": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-8.jpeg",
+        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-7.jpeg",
         "altText": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive.jpeg",
+        "url": "/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-8.jpeg",
         "altText": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
         "order": 9,
         "isPrimary": false
@@ -5735,7 +4955,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "156,000 km",
     "kmNumber": 156000,
-    "image": "/cars/audi-a6-2.jpeg",
+    "image": "/cars/audi-a6.jpeg",
     "description": "Audi A6 vuodelta 2016.",
     "detailedDescription": [
       "Tämä Audi Audi A6 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -5746,13 +4966,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -5794,56 +5008,56 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-a6-2-1.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6.jpeg",
+        "altText": "audi-a6",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/audi-a6-2-2.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-1.jpeg",
+        "altText": "audi-a6",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-3.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-2.jpeg",
+        "altText": "audi-a6",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-4.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-3.jpeg",
+        "altText": "audi-a6",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-5.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-4.jpeg",
+        "altText": "audi-a6",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-6.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-5.jpeg",
+        "altText": "audi-a6",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-7.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-6.jpeg",
+        "altText": "audi-a6",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-8.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-7.jpeg",
+        "altText": "audi-a6",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-8.jpeg",
+        "altText": "audi-a6",
         "order": 9,
         "isPrimary": false
       }
@@ -5873,13 +5087,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -5921,61 +5129,61 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-1.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-2.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-1.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-3.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-2.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-4.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-3.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-5.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-4.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-6.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-5.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-7.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-6.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-8.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-7.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-9.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-8.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 9,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design.jpeg",
+        "url": "/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-9.jpeg",
         "altText": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
         "order": 10,
         "isPrimary": false
@@ -6006,13 +5214,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -6054,117 +5256,63 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/skoda-superb-1.jpeg",
+        "url": "/cars/skoda-superb.jpeg",
         "altText": "skoda-superb",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/skoda-superb-2-1.jpeg",
+        "url": "/cars/skoda-superb-1.jpeg",
         "altText": "skoda-superb",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-2.jpeg",
+        "url": "/cars/skoda-superb-2.jpeg",
         "altText": "skoda-superb",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-3.jpeg",
+        "url": "/cars/skoda-superb-3.jpeg",
         "altText": "skoda-superb",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-4.jpeg",
+        "url": "/cars/skoda-superb-4.jpeg",
         "altText": "skoda-superb",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-5.jpeg",
+        "url": "/cars/skoda-superb-5.jpeg",
         "altText": "skoda-superb",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-6.jpeg",
+        "url": "/cars/skoda-superb-6.jpeg",
         "altText": "skoda-superb",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-7.jpeg",
+        "url": "/cars/skoda-superb-7.jpeg",
         "altText": "skoda-superb",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-8.jpeg",
+        "url": "/cars/skoda-superb-8.jpeg",
         "altText": "skoda-superb",
         "order": 9,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-superb-2-9.jpeg",
-        "altText": "skoda-superb",
-        "order": 10,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-2.jpeg",
-        "altText": "skoda-superb",
-        "order": 11,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-3.jpeg",
-        "altText": "skoda-superb",
-        "order": 12,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-4.jpeg",
-        "altText": "skoda-superb",
-        "order": 13,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-5.jpeg",
-        "altText": "skoda-superb",
-        "order": 14,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-6.jpeg",
-        "altText": "skoda-superb",
-        "order": 15,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-7.jpeg",
-        "altText": "skoda-superb",
-        "order": 16,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb-8.jpeg",
-        "altText": "skoda-superb",
-        "order": 17,
-        "isPrimary": false
-      },
-      {
         "url": "/cars/skoda-superb-9.jpeg",
         "altText": "skoda-superb",
-        "order": 18,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/skoda-superb.jpeg",
-        "altText": "skoda-superb",
-        "order": 19,
+        "order": 10,
         "isPrimary": false
       }
     ]
@@ -6193,13 +5341,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -6241,49 +5383,49 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-1.jpeg",
+        "url": "/cars/mercedes-benz-e220-amg-paketti.jpeg",
         "altText": "mercedes-benz-e220-amg-paketti",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-2.jpeg",
+        "url": "/cars/mercedes-benz-e220-amg-paketti-1.jpeg",
         "altText": "mercedes-benz-e220-amg-paketti",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-3.jpeg",
+        "url": "/cars/mercedes-benz-e220-amg-paketti-2.jpeg",
         "altText": "mercedes-benz-e220-amg-paketti",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-4.jpeg",
+        "url": "/cars/mercedes-benz-e220-amg-paketti-3.jpeg",
         "altText": "mercedes-benz-e220-amg-paketti",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-5.jpeg",
+        "url": "/cars/mercedes-benz-e220-amg-paketti-4.jpeg",
         "altText": "mercedes-benz-e220-amg-paketti",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-6.jpeg",
+        "url": "/cars/mercedes-benz-e220-amg-paketti-5.jpeg",
         "altText": "mercedes-benz-e220-amg-paketti",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-7.jpeg",
+        "url": "/cars/mercedes-benz-e220-amg-paketti-6.jpeg",
         "altText": "mercedes-benz-e220-amg-paketti",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-amg-paketti.jpeg",
+        "url": "/cars/mercedes-benz-e220-amg-paketti-7.jpeg",
         "altText": "mercedes-benz-e220-amg-paketti",
         "order": 8,
         "isPrimary": false
@@ -6314,13 +5456,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -6362,111 +5498,63 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/mercedes-benz-e220-1.jpeg",
+        "url": "/cars/mercedes-benz-e220.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/mercedes-benz-e220-2.jpeg",
+        "url": "/cars/mercedes-benz-e220-1.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-3.jpeg",
+        "url": "/cars/mercedes-benz-e220-2.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-4.jpeg",
+        "url": "/cars/mercedes-benz-e220-3.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-5.jpeg",
+        "url": "/cars/mercedes-benz-e220-4.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-6.jpeg",
+        "url": "/cars/mercedes-benz-e220-5.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-7.jpeg",
+        "url": "/cars/mercedes-benz-e220-6.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-8.jpeg",
+        "url": "/cars/mercedes-benz-e220-7.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-9.jpeg",
+        "url": "/cars/mercedes-benz-e220-8.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 9,
         "isPrimary": false
       },
       {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-1.jpeg",
+        "url": "/cars/mercedes-benz-e220-9.jpeg",
         "altText": "mercedes-benz-e220",
         "order": 10,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-2.jpeg",
-        "altText": "mercedes-benz-e220",
-        "order": 11,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-3.jpeg",
-        "altText": "mercedes-benz-e220",
-        "order": 12,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-4.jpeg",
-        "altText": "mercedes-benz-e220",
-        "order": 13,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-5.jpeg",
-        "altText": "mercedes-benz-e220",
-        "order": 14,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-6.jpeg",
-        "altText": "mercedes-benz-e220",
-        "order": 15,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/mercedes-benz-e220-amg-paketti-7.jpeg",
-        "altText": "mercedes-benz-e220",
-        "order": 16,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/mercedes-benz-e220-amg-paketti.jpeg",
-        "altText": "mercedes-benz-e220",
-        "order": 17,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/mercedes-benz-e220.jpeg",
-        "altText": "mercedes-benz-e220",
-        "order": 18,
         "isPrimary": false
       }
     ]
@@ -6495,13 +5583,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -6605,7 +5687,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "213,000 km",
     "kmNumber": 213000,
-    "image": "/cars/audi-a6-2.jpeg",
+    "image": "/cars/audi-a6.jpeg",
     "description": "Audi A6 vuodelta 2018.",
     "detailedDescription": [
       "Tämä Audi Audi A6 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -6616,13 +5698,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -6664,56 +5740,56 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-a6-2-1.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6.jpeg",
+        "altText": "audi-a6",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/audi-a6-2-2.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-1.jpeg",
+        "altText": "audi-a6",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-3.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-2.jpeg",
+        "altText": "audi-a6",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-4.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-3.jpeg",
+        "altText": "audi-a6",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-5.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-4.jpeg",
+        "altText": "audi-a6",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-6.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-5.jpeg",
+        "altText": "audi-a6",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-7.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-6.jpeg",
+        "altText": "audi-a6",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2-8.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-7.jpeg",
+        "altText": "audi-a6",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a6-2.jpeg",
-        "altText": "audi-a6-2",
+        "url": "/cars/audi-a6-8.jpeg",
+        "altText": "audi-a6",
         "order": 9,
         "isPrimary": false
       }
@@ -6732,7 +5808,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "223,396 km",
     "kmNumber": 223396,
-    "image": "/cars/vw-passat-1-6.jpeg",
+    "image": "/cars/vw-passat-16.jpeg",
     "description": "Volkswagen Passat vuodelta 2016.",
     "detailedDescription": [
       "Tämä Volkswagen VW Passat 1.6 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -6743,13 +5819,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -6791,75 +5861,69 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/vw-passat-1-6-1.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16.jpeg",
+        "altText": "vw-passat-16",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/vw-passat-1-6-10.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-1.jpeg",
+        "altText": "vw-passat-16",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/vw-passat-1-6-11.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-2.jpeg",
+        "altText": "vw-passat-16",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/vw-passat-1-6-2.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-3.jpeg",
+        "altText": "vw-passat-16",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/vw-passat-1-6-3.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-4.jpeg",
+        "altText": "vw-passat-16",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/vw-passat-1-6-4.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-5.jpeg",
+        "altText": "vw-passat-16",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/vw-passat-1-6-5.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-6.jpeg",
+        "altText": "vw-passat-16",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/vw-passat-1-6-6.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-7.jpeg",
+        "altText": "vw-passat-16",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/vw-passat-1-6-7.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-8.jpeg",
+        "altText": "vw-passat-16",
         "order": 9,
         "isPrimary": false
       },
       {
-        "url": "/cars/vw-passat-1-6-8.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-9.jpeg",
+        "altText": "vw-passat-16",
         "order": 10,
         "isPrimary": false
       },
       {
-        "url": "/cars/vw-passat-1-6-9.jpeg",
-        "altText": "vw-passat-1-6",
+        "url": "/cars/vw-passat-16-10.jpeg",
+        "altText": "vw-passat-16",
         "order": 11,
-        "isPrimary": false
-      },
-      {
-        "url": "/cars/vw-passat-1-6.jpeg",
-        "altText": "vw-passat-1-6",
-        "order": 12,
         "isPrimary": false
       }
     ]
@@ -6877,7 +5941,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "213,000 km",
     "kmNumber": 213000,
-    "image": "/cars/seat-tarraco-2-0.jpeg",
+    "image": "/cars/seat-tarraco-20.jpeg",
     "description": "Seat Tarraco vuodelta 2019.",
     "detailedDescription": [
       "Tämä Seat Seat Tarraco 2.0 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -6888,13 +5952,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -6936,62 +5994,62 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/seat-tarraco-2-0-1.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/seat-tarraco-2-0-2.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20-1.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/seat-tarraco-2-0-3.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20-2.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/seat-tarraco-2-0-4.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20-3.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/seat-tarraco-2-0-5.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20-4.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/seat-tarraco-2-0-6.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20-5.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/seat-tarraco-2-0-7.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20-6.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/seat-tarraco-2-0-8.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20-7.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/seat-tarraco-2-0-9.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20-8.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 9,
         "isPrimary": false
       },
       {
-        "url": "/cars/seat-tarraco-2-0.jpeg",
-        "altText": "seat-tarraco-2-0",
+        "url": "/cars/seat-tarraco-20-9.jpeg",
+        "altText": "seat-tarraco-20",
         "order": 10,
         "isPrimary": false
       }
@@ -7010,7 +6068,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "238,000 km",
     "kmNumber": 238000,
-    "image": "/cars/audi-a4-allroad-2-0.jpeg",
+    "image": "/cars/audi-a4-allroad-20.jpeg",
     "description": "Audi A4 vuodelta 2020.",
     "detailedDescription": [
       "Tämä Audi Audi A4 Allroad 2.0 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -7021,13 +6079,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -7069,50 +6121,50 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-a4-allroad-2-0-1.jpeg",
-        "altText": "audi-a4-allroad-2-0",
+        "url": "/cars/audi-a4-allroad-20.jpeg",
+        "altText": "audi-a4-allroad-20",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/audi-a4-allroad-2-0-2.jpeg",
-        "altText": "audi-a4-allroad-2-0",
+        "url": "/cars/audi-a4-allroad-20-1.jpeg",
+        "altText": "audi-a4-allroad-20",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a4-allroad-2-0-3.jpeg",
-        "altText": "audi-a4-allroad-2-0",
+        "url": "/cars/audi-a4-allroad-20-2.jpeg",
+        "altText": "audi-a4-allroad-20",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a4-allroad-2-0-4.jpeg",
-        "altText": "audi-a4-allroad-2-0",
+        "url": "/cars/audi-a4-allroad-20-3.jpeg",
+        "altText": "audi-a4-allroad-20",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a4-allroad-2-0-5.jpeg",
-        "altText": "audi-a4-allroad-2-0",
+        "url": "/cars/audi-a4-allroad-20-4.jpeg",
+        "altText": "audi-a4-allroad-20",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a4-allroad-2-0-6.jpeg",
-        "altText": "audi-a4-allroad-2-0",
+        "url": "/cars/audi-a4-allroad-20-5.jpeg",
+        "altText": "audi-a4-allroad-20",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a4-allroad-2-0-7.jpeg",
-        "altText": "audi-a4-allroad-2-0",
+        "url": "/cars/audi-a4-allroad-20-6.jpeg",
+        "altText": "audi-a4-allroad-20",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-a4-allroad-2-0.jpeg",
-        "altText": "audi-a4-allroad-2-0",
+        "url": "/cars/audi-a4-allroad-20-7.jpeg",
+        "altText": "audi-a4-allroad-20",
         "order": 8,
         "isPrimary": false
       }
@@ -7142,13 +6194,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -7190,55 +6236,55 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/bmw-x5-1.jpeg",
+        "url": "/cars/bmw-x5.jpeg",
         "altText": "bmw-x5",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/bmw-x5-2.jpeg",
+        "url": "/cars/bmw-x5-1.jpeg",
         "altText": "bmw-x5",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-x5-3.jpeg",
+        "url": "/cars/bmw-x5-2.jpeg",
         "altText": "bmw-x5",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-x5-4.jpeg",
+        "url": "/cars/bmw-x5-3.jpeg",
         "altText": "bmw-x5",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-x5-5.jpeg",
+        "url": "/cars/bmw-x5-4.jpeg",
         "altText": "bmw-x5",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-x5-6.jpeg",
+        "url": "/cars/bmw-x5-5.jpeg",
         "altText": "bmw-x5",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-x5-7.jpeg",
+        "url": "/cars/bmw-x5-6.jpeg",
         "altText": "bmw-x5",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-x5-8.jpeg",
+        "url": "/cars/bmw-x5-7.jpeg",
         "altText": "bmw-x5",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/bmw-x5.jpeg",
+        "url": "/cars/bmw-x5-8.jpeg",
         "altText": "bmw-x5",
         "order": 9,
         "isPrimary": false
@@ -7258,7 +6304,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "225,000 km",
     "kmNumber": 225000,
-    "image": "/cars/audi-q5-2-0.jpeg",
+    "image": "/cars/audi-q5-20.jpeg",
     "description": "Audi Q5 vuodelta 2020.",
     "detailedDescription": [
       "Tämä Audi Audi Q5 2.0 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -7269,13 +6315,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -7317,56 +6357,56 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/audi-q5-2-0-1.jpeg",
-        "altText": "audi-q5-2-0",
+        "url": "/cars/audi-q5-20.jpeg",
+        "altText": "audi-q5-20",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/audi-q5-2-0-2.jpeg",
-        "altText": "audi-q5-2-0",
+        "url": "/cars/audi-q5-20-1.jpeg",
+        "altText": "audi-q5-20",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-q5-2-0-3.jpeg",
-        "altText": "audi-q5-2-0",
+        "url": "/cars/audi-q5-20-2.jpeg",
+        "altText": "audi-q5-20",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-q5-2-0-4.jpeg",
-        "altText": "audi-q5-2-0",
+        "url": "/cars/audi-q5-20-3.jpeg",
+        "altText": "audi-q5-20",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-q5-2-0-5.jpeg",
-        "altText": "audi-q5-2-0",
+        "url": "/cars/audi-q5-20-4.jpeg",
+        "altText": "audi-q5-20",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-q5-2-0-6.jpeg",
-        "altText": "audi-q5-2-0",
+        "url": "/cars/audi-q5-20-5.jpeg",
+        "altText": "audi-q5-20",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-q5-2-0-7.jpeg",
-        "altText": "audi-q5-2-0",
+        "url": "/cars/audi-q5-20-6.jpeg",
+        "altText": "audi-q5-20",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-q5-2-0-8.jpeg",
-        "altText": "audi-q5-2-0",
+        "url": "/cars/audi-q5-20-7.jpeg",
+        "altText": "audi-q5-20",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/audi-q5-2-0.jpeg",
-        "altText": "audi-q5-2-0",
+        "url": "/cars/audi-q5-20-8.jpeg",
+        "altText": "audi-q5-20",
         "order": 9,
         "isPrimary": false
       }
@@ -7385,7 +6425,7 @@ export const cars: Car[] = [
     "transmission": "Automaatti",
     "km": "257,578 km",
     "kmNumber": 257578,
-    "image": "/cars/skoda-octavia-1-6-diesel-automaatti-2020.jpeg",
+    "image": "/cars/skoda-octavia-16-diesel-automaatti-2020.jpeg",
     "description": "Skoda Octavia vuodelta 2020.",
     "detailedDescription": [
       "Tämä Skoda Skoda Octavia 1.6 diesel automaatti 2020 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.",
@@ -7396,13 +6436,7 @@ export const cars: Car[] = [
       "Airbag Driver",
       "Airbag Passenger",
       "Anti Lock Braking System",
-      "Bluetooth",
-      "Turvatyynyt",
-      "ABS",
-      "Ilmastointi",
-      "Sähköikkunat",
-      "Peruutuskamera",
-      "Vakautusjärjestelmä"
+      "Bluetooth"
     ],
     "specifications": [
       {
@@ -7444,136 +6478,59 @@ export const cars: Car[] = [
     "featured": false,
     "images": [
       {
-        "url": "/cars/skoda-octavia-1-6-diesel-automaatti-2020-1.jpeg",
-        "altText": "skoda-octavia-1-6-diesel-automaatti-2020",
+        "url": "/cars/skoda-octavia-16-diesel-automaatti-2020.jpeg",
+        "altText": "skoda-octavia-16-diesel-automaatti-2020",
         "order": 1,
         "isPrimary": true
       },
       {
-        "url": "/cars/skoda-octavia-1-6-diesel-automaatti-2020-2.jpeg",
-        "altText": "skoda-octavia-1-6-diesel-automaatti-2020",
+        "url": "/cars/skoda-octavia-16-diesel-automaatti-2020-1.jpeg",
+        "altText": "skoda-octavia-16-diesel-automaatti-2020",
         "order": 2,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-octavia-1-6-diesel-automaatti-2020-3.jpeg",
-        "altText": "skoda-octavia-1-6-diesel-automaatti-2020",
+        "url": "/cars/skoda-octavia-16-diesel-automaatti-2020-2.jpeg",
+        "altText": "skoda-octavia-16-diesel-automaatti-2020",
         "order": 3,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-octavia-1-6-diesel-automaatti-2020-4.jpeg",
-        "altText": "skoda-octavia-1-6-diesel-automaatti-2020",
+        "url": "/cars/skoda-octavia-16-diesel-automaatti-2020-3.jpeg",
+        "altText": "skoda-octavia-16-diesel-automaatti-2020",
         "order": 4,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-octavia-1-6-diesel-automaatti-2020-5.jpeg",
-        "altText": "skoda-octavia-1-6-diesel-automaatti-2020",
+        "url": "/cars/skoda-octavia-16-diesel-automaatti-2020-4.jpeg",
+        "altText": "skoda-octavia-16-diesel-automaatti-2020",
         "order": 5,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-octavia-1-6-diesel-automaatti-2020-6.jpeg",
-        "altText": "skoda-octavia-1-6-diesel-automaatti-2020",
+        "url": "/cars/skoda-octavia-16-diesel-automaatti-2020-5.jpeg",
+        "altText": "skoda-octavia-16-diesel-automaatti-2020",
         "order": 6,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-octavia-1-6-diesel-automaatti-2020-7.jpeg",
-        "altText": "skoda-octavia-1-6-diesel-automaatti-2020",
+        "url": "/cars/skoda-octavia-16-diesel-automaatti-2020-6.jpeg",
+        "altText": "skoda-octavia-16-diesel-automaatti-2020",
         "order": 7,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-octavia-1-6-diesel-automaatti-2020-8.jpeg",
-        "altText": "skoda-octavia-1-6-diesel-automaatti-2020",
+        "url": "/cars/skoda-octavia-16-diesel-automaatti-2020-7.jpeg",
+        "altText": "skoda-octavia-16-diesel-automaatti-2020",
         "order": 8,
         "isPrimary": false
       },
       {
-        "url": "/cars/skoda-octavia-1-6-diesel-automaatti-2020.jpeg",
-        "altText": "skoda-octavia-1-6-diesel-automaatti-2020",
+        "url": "/cars/skoda-octavia-16-diesel-automaatti-2020-8.jpeg",
+        "altText": "skoda-octavia-16-diesel-automaatti-2020",
         "order": 9,
         "isPrimary": false
       }
     ]
   }
 ];
-
-
-
-
-
-
-
-
-
-export function getCarById(id: string): Car | undefined {
-  return cars.find(car => car.id === id || car.slug === id);
-}
-
-export function getCarsByBrand(brand: string): Car[] {
-  return cars.filter(car => car.brand.toLowerCase() === brand.toLowerCase());
-}
-
-export function getCarsByCategory(category: string): Car[] {
-  return cars.filter(car => car.category === category);
-}
-
-export function getRelatedCars(currentCarId: string, limit: number = 3): Car[] {
-  const currentCar = getCarById(currentCarId);
-  if (!currentCar) return [];
-
-  // Get cars from same brand first
-  let related = getCarsByBrand(currentCar.brand).filter(car => car.id !== currentCarId);
-
-  // If not enough, add cars from same category
-  if (related.length < limit) {
-    const categoryMatches = getCarsByCategory(currentCar.category)
-      .filter(car => car.id !== currentCarId && !related.find(r => r.id === car.id));
-    related = [...related, ...categoryMatches];
-  }
-
-  // If still not enough, add any other cars
-  if (related.length < limit) {
-    const others = cars
-      .filter(car => car.id !== currentCarId && !related.find(r => r.id === car.id));
-    related = [...related, ...others];
-  }
-
-  return related.slice(0, limit);
-}
-
-export function getCarById(id: string): Car | undefined {
-  return cars.find(car => car.id === id || car.slug === id);
-}
-
-export function getCarsByBrand(brand: string): Car[] {
-  return cars.filter(car => car.brand.toLowerCase() === brand.toLowerCase());
-}
-
-export function getCarsByCategory(category: string): Car[] {
-  return cars.filter(car => car.category === category);
-}
-
-export function getRelatedCars(currentCarId: string, limit: number = 3): Car[] {
-  const currentCar = getCarById(currentCarId);
-  if (!currentCar) return [];
-
-  let related = getCarsByBrand(currentCar.brand).filter(car => car.id !== currentCarId);
-
-  if (related.length < limit) {
-    const categoryMatches = getCarsByCategory(currentCar.category)
-      .filter(car => car.id !== currentCarId && !related.find(r => r.id === car.id));
-    related = [...related, ...categoryMatches];
-  }
-
-  if (related.length < limit) {
-    const others = cars
-      .filter(car => car.id !== currentCarId && !related.find(r => r.id === car.id));
-    related = [...related, ...others];
-  }
-
-  return related.slice(0, limit);
-}

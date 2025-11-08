@@ -1,0 +1,563 @@
+📸 Car Image Downloader
+==================================================
+📦 Found 421 images to download
+📁 Saving to: /home/behar/Desktop/New Folder/kroi-auto-center/public/cars
+
+
+🚗 Processing: Audi Q3 15 900 €
+   📥 [1/421] Downloading: audi-q3-15-900-.webp... ✓
+   📥 [2/421] Downloading: audi-q3-15-900--1.webp... ✓
+   📥 [3/421] Downloading: audi-q3-15-900--2.webp... ✓
+   📥 [4/421] Downloading: audi-q3-15-900--3.webp... ✓
+   📥 [5/421] Downloading: audi-q3-15-900--4.webp... ✓
+
+🚗 Processing: Audi Q3 KNB 12 890 €
+   📥 [6/421] Downloading: audi-q3-knb-12-890-.webp... ✓
+   📥 [7/421] Downloading: audi-q3-knb-12-890--1.webp... ✓
+   📥 [8/421] Downloading: audi-q3-knb-12-890--2.webp... ✓
+   📥 [9/421] Downloading: audi-q3-knb-12-890--3.webp... ✓
+
+🚗 Processing: BMW 520 G30 Sedan 520d A xDrive Business 20000€
+   📥 [10/421] Downloading: bmw-520-g30-sedan-520d-a-xdrive-business-20000.webp... ✓
+   📥 [11/421] Downloading: bmw-520-g30-sedan-520d-a-xdrive-business-20000-1.webp... ✓
+   📥 [12/421] Downloading: bmw-520-g30-sedan-520d-a-xdrive-business-20000-2.webp... ✓
+   📥 [13/421] Downloading: bmw-520-g30-sedan-520d-a-xdrive-business-20000-3.webp... ✓
+   📥 [14/421] Downloading: bmw-520-g30-sedan-520d-a-xdrive-business-20000-4.webp... ✓
+
+🚗 Processing: Volkswagen Passat comfortline 13900€
+   📥 [15/421] Downloading: volkswagen-passat-comfortline-13900.webp... ✓
+   📥 [16/421] Downloading: volkswagen-passat-comfortline-13900-1.webp... ✓
+
+🚗 Processing: Volkswagen Passat Variant Highline 2,0 TDI 11500€
+   📥 [17/421] Downloading: volkswagen-passat-variant-highline-20-tdi-11500.webp... ✓
+   📥 [18/421] Downloading: volkswagen-passat-variant-highline-20-tdi-11500-1.webp... ✓
+   📥 [19/421] Downloading: volkswagen-passat-variant-highline-20-tdi-11500-2.webp... ✓
+   📥 [20/421] Downloading: volkswagen-passat-variant-highline-20-tdi-11500-3.webp... ✓
+   📥 [21/421] Downloading: volkswagen-passat-variant-highline-20-tdi-11500-4.webp... ✓
+   📥 [22/421] Downloading: volkswagen-passat-variant-highline-20-tdi-11500-5.webp... ✓
+   📥 [23/421] Downloading: volkswagen-passat-variant-highline-20-tdi-11500-6.webp... ✓
+
+🚗 Processing: Volkswagen Tiguan Allspace 2,0 TDI SCR 110 kW (150 hv) 19000€
+   📥 [24/421] Downloading: volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000.webp... ✓
+   📥 [25/421] Downloading: volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-1.webp... ✓
+   📥 [26/421] Downloading: volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-2.webp... ✓
+   📥 [27/421] Downloading: volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-3.webp... ✓
+   📥 [28/421] Downloading: volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-4.webp... ✓
+   📥 [29/421] Downloading: volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000-5.webp... ✓
+
+🚗 Processing: Volkswagen Tiguan R-Line 2,0 TDI 37 000 €
+   📥 [30/421] Downloading: volkswagen-tiguan-r-line-20-tdi-37-000-.webp... ✓
+   📥 [31/421] Downloading: volkswagen-tiguan-r-line-20-tdi-37-000--1.webp... ✓
+   📥 [32/421] Downloading: volkswagen-tiguan-r-line-20-tdi-37-000--2.webp... ✓
+   📥 [33/421] Downloading: volkswagen-tiguan-r-line-20-tdi-37-000--3.webp... ✓
+   📥 [34/421] Downloading: volkswagen-tiguan-r-line-20-tdi-37-000--4.webp... ✓
+
+🚗 Processing: Mercedes-Benz E220
+   ⏭️  Skipping local path: /cars/mercedes-benz-e220.jpeg
+
+🚗 Processing: Seat Tarraco
+   ⏭️  Skipping local path: /cars/seat-tarraco.jpeg
+
+🚗 Processing: Volkswagen Tiguan
+   📥 [35/421] Downloading: volkswagen-tiguan.jpg... ✓
+   📥 [36/421] Downloading: volkswagen-tiguan-1.jpg... ✓
+   📥 [37/421] Downloading: volkswagen-tiguan-2.jpg... ✓
+   📥 [38/421] Downloading: volkswagen-tiguan-3.jpg... ✓
+   📥 [39/421] Downloading: volkswagen-tiguan-4.jpg... ✓
+   📥 [40/421] Downloading: volkswagen-tiguan-5.jpg... ✓
+   📥 [41/421] Downloading: volkswagen-tiguan-6.jpg... ✓
+   📥 [42/421] Downloading: volkswagen-tiguan-7.jpg... ✓
+   📥 [43/421] Downloading: volkswagen-tiguan-8.jpg... ✓
+   📥 [44/421] Downloading: volkswagen-tiguan-9.jpg... ✓
+   📥 [45/421] Downloading: volkswagen-tiguan-10.jpg... ✓
+   📥 [46/421] Downloading: volkswagen-tiguan-11.jpg... ✓
+   📥 [47/421] Downloading: volkswagen-tiguan-12.jpg... ✓
+
+🚗 Processing: Volkswagen T-Roc
+   📥 [48/421] Downloading: volkswagen-t-roc.jpg... ✓
+   📥 [49/421] Downloading: volkswagen-t-roc-1.jpg... ✓
+   📥 [50/421] Downloading: volkswagen-t-roc-2.jpg... ✓
+   📥 [51/421] Downloading: volkswagen-t-roc-3.jpg... ✓
+   📥 [52/421] Downloading: volkswagen-t-roc-4.jpg... ✓
+   📥 [53/421] Downloading: volkswagen-t-roc-5.jpg... ✓
+
+🚗 Processing: Volkswagen Tiguan
+   ✓ Already exists: volkswagen-tiguan.jpg
+   ✓ Already exists: volkswagen-tiguan-1.jpg
+   ✓ Already exists: volkswagen-tiguan-2.jpg
+   ✓ Already exists: volkswagen-tiguan-3.jpg
+   ✓ Already exists: volkswagen-tiguan-4.jpg
+   ✓ Already exists: volkswagen-tiguan-5.jpg
+
+🚗 Processing: Volkswagen Tiguan Allspace
+   ⏭️  Skipping local path: /cars/volkswagen-tiguan-allspace.jpeg
+
+🚗 Processing: Audi Q5 2.0 TDI 140 kW quattro S tronic S-Line
+   📥 [54/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line.jpeg... ✓
+   📥 [55/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-1.jpeg... ✓
+   📥 [56/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-2.jpeg... ✓
+   📥 [57/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-3.jpeg... ✓
+   📥 [58/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-4.jpeg... ✓
+   📥 [59/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-5.jpeg... ✓
+   📥 [60/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-6.jpeg... ✓
+   📥 [61/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-7.jpeg... ✓
+   📥 [62/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-8.jpeg... ✓
+   📥 [63/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-9.jpeg... ✓
+   📥 [64/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-10.jpeg... ✓
+   📥 [65/421] Downloading: audi-q5-20-tdi-140-kw-quattro-s-tronic-s-line-11.jpeg... ✓
+
+🚗 Processing: Volkswagen T-Roc
+   ✓ Already exists: volkswagen-t-roc.jpg
+   ✓ Already exists: volkswagen-t-roc-1.jpg
+   ✓ Already exists: volkswagen-t-roc-2.jpg
+   ✓ Already exists: volkswagen-t-roc-3.jpg
+
+🚗 Processing: Audi A4
+   ⏭️  Skipping local path: /cars/audi-a4.jpeg
+
+🚗 Processing: Volkswagen T-Roc
+   ✓ Already exists: volkswagen-t-roc.jpg
+   ✓ Already exists: volkswagen-t-roc-1.jpg
+   ✓ Already exists: volkswagen-t-roc-2.jpg
+   ✓ Already exists: volkswagen-t-roc-3.jpg
+   ✓ Already exists: volkswagen-t-roc-4.jpg
+   ✓ Already exists: volkswagen-t-roc-5.jpg
+   📥 [66/421] Downloading: volkswagen-t-roc-6.jpg... ✓
+   📥 [67/421] Downloading: volkswagen-t-roc-7.jpg... ✓
+
+🚗 Processing: Audi Q2
+   ⏭️  Skipping local path: /cars/audi-q2.jpeg
+
+🚗 Processing: Volkswagen Tiguan
+   ✓ Already exists: volkswagen-tiguan.jpg
+   ✓ Already exists: volkswagen-tiguan-1.jpg
+   ✓ Already exists: volkswagen-tiguan-2.jpg
+   ✓ Already exists: volkswagen-tiguan-3.jpg
+   ✓ Already exists: volkswagen-tiguan-4.jpg
+   ✓ Already exists: volkswagen-tiguan-5.jpg
+   ✓ Already exists: volkswagen-tiguan-6.jpg
+   ✓ Already exists: volkswagen-tiguan-7.jpg
+
+🚗 Processing: Audi A4
+   ⏭️  Skipping local path: /cars/audi-a4.jpeg
+
+🚗 Processing: Volkswagen Passat
+   📥 [68/421] Downloading: volkswagen-passat.jpg... ✓
+   📥 [69/421] Downloading: volkswagen-passat-1.jpg... ✓
+   📥 [70/421] Downloading: volkswagen-passat-2.jpg... ✓
+   📥 [71/421] Downloading: volkswagen-passat-3.jpg... ✓
+   📥 [72/421] Downloading: volkswagen-passat-4.jpg... ✓
+   📥 [73/421] Downloading: volkswagen-passat-5.jpg... ✓
+   📥 [74/421] Downloading: volkswagen-passat-6.jpg... ✓
+   📥 [75/421] Downloading: volkswagen-passat-7.jpg... ✓
+   📥 [76/421] Downloading: volkswagen-passat-8.jpg... ✓
+   📥 [77/421] Downloading: volkswagen-passat-9.jpg... ✓
+
+🚗 Processing: BMW 518
+   📥 [78/421] Downloading: bmw-518.jpg... ✓
+   📥 [79/421] Downloading: bmw-518-1.jpg... ✓
+   📥 [80/421] Downloading: bmw-518-2.jpg... ✓
+   📥 [81/421] Downloading: bmw-518-3.jpg... ✓
+   📥 [82/421] Downloading: bmw-518-4.jpg... ✓
+   📥 [83/421] Downloading: bmw-518-5.jpg... ✓
+   📥 [84/421] Downloading: bmw-518-6.jpg... ✓
+   📥 [85/421] Downloading: bmw-518-7.jpg... ✓
+   📥 [86/421] Downloading: bmw-518-8.jpg... ✓
+   📥 [87/421] Downloading: bmw-518-9.jpg... ✓
+   📥 [88/421] Downloading: bmw-518-10.jpg... ✓
+   📥 [89/421] Downloading: bmw-518-11.jpg... ✓
+   📥 [90/421] Downloading: bmw-518-12.jpg... ✓
+
+🚗 Processing: Audi Q3
+   📥 [91/421] Downloading: audi-q3.jpg... ✓
+   📥 [92/421] Downloading: audi-q3-1.jpg... ✓
+   📥 [93/421] Downloading: audi-q3-2.jpg... ✓
+   📥 [94/421] Downloading: audi-q3-3.jpg... ✓
+
+🚗 Processing: Seat Tarraco
+   ⏭️  Skipping local path: /cars/seat-tarraco.jpeg
+
+🚗 Processing: Volkswagen Passat
+   ✓ Already exists: volkswagen-passat.jpg
+   ✓ Already exists: volkswagen-passat-1.jpg
+   ✓ Already exists: volkswagen-passat-2.jpg
+   ✓ Already exists: volkswagen-passat-3.jpg
+   ✓ Already exists: volkswagen-passat-4.jpg
+
+🚗 Processing: Volkswagen T-Roc
+   ⏭️  Skipping local path: /cars/volkswagen-t-roc.jpeg
+
+🚗 Processing: AUDI A4 2.0 40TDI quattro S-tronic 190kw
+   📥 [95/421] Downloading: audi-a4-20-40tdi-quattro-s-tronic-190kw.jpg... ✓
+   📥 [96/421] Downloading: audi-a4-20-40tdi-quattro-s-tronic-190kw-1.jpg... ✓
+   📥 [97/421] Downloading: audi-a4-20-40tdi-quattro-s-tronic-190kw-2.jpg... ✓
+   📥 [98/421] Downloading: audi-a4-20-40tdi-quattro-s-tronic-190kw-3.jpg... ✓
+   📥 [99/421] Downloading: audi-a4-20-40tdi-quattro-s-tronic-190kw-4.jpg... ✓
+   📥 [100/421] Downloading: audi-a4-20-40tdi-quattro-s-tronic-190kw-5.jpg... ✓
+
+🚗 Processing: Audi Q5 Business Sport 2,0
+   📥 [101/421] Downloading: audi-q5-business-sport-20.jpg... ✓
+   📥 [102/421] Downloading: audi-q5-business-sport-20-1.jpg... ✓
+   📥 [103/421] Downloading: audi-q5-business-sport-20-2.jpg... ✓
+   📥 [104/421] Downloading: audi-q5-business-sport-20-3.jpg... ✓
+   📥 [105/421] Downloading: audi-q5-business-sport-20-4.jpg... ✓
+   📥 [106/421] Downloading: audi-q5-business-sport-20-5.jpg... ✓
+   📥 [107/421] Downloading: audi-q5-business-sport-20-6.jpg... ✓
+   📥 [108/421] Downloading: audi-q5-business-sport-20-7.jpg... ✓
+   📥 [109/421] Downloading: audi-q5-business-sport-20-8.jpg... ✓
+   📥 [110/421] Downloading: audi-q5-business-sport-20-9.jpg... ✓
+   📥 [111/421] Downloading: audi-q5-business-sport-20-10.jpg... ✓
+   📥 [112/421] Downloading: audi-q5-business-sport-20-11.jpg... ✓
+
+🚗 Processing: Volkswagen Passat B9
+   📥 [113/421] Downloading: volkswagen-passat-b9.jpg... ✓
+   📥 [114/421] Downloading: volkswagen-passat-b9-1.jpg... ✓
+   📥 [115/421] Downloading: volkswagen-passat-b9-2.jpg... ✓
+   📥 [116/421] Downloading: volkswagen-passat-b9-3.jpg... ✓
+   📥 [117/421] Downloading: volkswagen-passat-b9-4.jpg... ✓
+   📥 [118/421] Downloading: volkswagen-passat-b9-5.jpg... ✓
+   📥 [119/421] Downloading: volkswagen-passat-b9-6.jpg... ✓
+   📥 [120/421] Downloading: volkswagen-passat-b9-7.jpg... ✓
+   📥 [121/421] Downloading: volkswagen-passat-b9-8.jpg... ✓
+   📥 [122/421] Downloading: volkswagen-passat-b9-9.jpg... ✓
+   📥 [123/421] Downloading: volkswagen-passat-b9-10.jpg... ✓
+   📥 [124/421] Downloading: volkswagen-passat-b9-11.jpg... ✓
+   📥 [125/421] Downloading: volkswagen-passat-b9-12.jpg... ✓
+
+🚗 Processing: Audi A5 35 TDI
+   📥 [126/421] Downloading: audi-a5-35-tdi.jpg... ✓
+   📥 [127/421] Downloading: audi-a5-35-tdi-1.jpg... ✓
+   📥 [128/421] Downloading: audi-a5-35-tdi-2.jpg... ✓
+   📥 [129/421] Downloading: audi-a5-35-tdi-3.jpg... ✓
+   📥 [130/421] Downloading: audi-a5-35-tdi-4.jpg... ✓
+
+🚗 Processing: Volkswagen Golf 7
+   📥 [131/421] Downloading: volkswagen-golf-7.jpg... ✓
+   📥 [132/421] Downloading: volkswagen-golf-7-1.jpg... ✓
+   📥 [133/421] Downloading: volkswagen-golf-7-2.jpg... ✓
+
+🚗 Processing: Audi Q5 Business Sport 2.0
+   ✓ Already exists: audi-q5-business-sport-20.jpg
+   ✓ Already exists: audi-q5-business-sport-20-1.jpg
+   ✓ Already exists: audi-q5-business-sport-20-2.jpg
+   ✓ Already exists: audi-q5-business-sport-20-3.jpg
+   ✓ Already exists: audi-q5-business-sport-20-4.jpg
+
+🚗 Processing: Mercedes-Benz C
+   📥 [134/421] Downloading: mercedes-benz-c.jpg... ✓
+   📥 [135/421] Downloading: mercedes-benz-c-1.jpg... ✓
+   📥 [136/421] Downloading: mercedes-benz-c-2.jpg... ✓
+   📥 [137/421] Downloading: mercedes-benz-c-3.jpg... ✓
+   📥 [138/421] Downloading: mercedes-benz-c-4.jpg... ✓
+   📥 [139/421] Downloading: mercedes-benz-c-5.jpg... ✓
+   📥 [140/421] Downloading: mercedes-benz-c-6.jpg... ✓
+   📥 [141/421] Downloading: mercedes-benz-c-7.jpg... ✓
+   📥 [142/421] Downloading: mercedes-benz-c-8.jpg... ✓
+   📥 [143/421] Downloading: mercedes-benz-c-9.jpg... ✓
+   📥 [144/421] Downloading: mercedes-benz-c-10.jpg... ✓
+   📥 [145/421] Downloading: mercedes-benz-c-11.jpg... ✓
+   📥 [146/421] Downloading: mercedes-benz-c-12.jpg... ✓
+   📥 [147/421] Downloading: mercedes-benz-c-13.jpg... ✓
+
+🚗 Processing: Audi A4 2016
+   📥 [148/421] Downloading: audi-a4-2016.jpg... ✓
+   📥 [149/421] Downloading: audi-a4-2016-1.jpg... ✓
+   📥 [150/421] Downloading: audi-a4-2016-2.jpg... ✓
+   📥 [151/421] Downloading: audi-a4-2016-3.jpg... ✓
+   📥 [152/421] Downloading: audi-a4-2016-4.jpg... ✓
+   📥 [153/421] Downloading: audi-a4-2016-5.jpg... ✓
+   📥 [154/421] Downloading: audi-a4-2016-6.jpg... ✓
+   📥 [155/421] Downloading: audi-a4-2016-7.jpg... ✓
+   📥 [156/421] Downloading: audi-a4-2016-8.jpg... ✓
+   📥 [157/421] Downloading: audi-a4-2016-9.jpg... ✓
+   📥 [158/421] Downloading: audi-a4-2016-10.jpg... ✓
+   📥 [159/421] Downloading: audi-a4-2016-11.jpg... ✓
+   📥 [160/421] Downloading: audi-a4-2016-12.jpg... ✓
+   📥 [161/421] Downloading: audi-a4-2016-13.jpg... ✓
+   📥 [162/421] Downloading: audi-a4-2016-14.jpg... ✓
+   📥 [163/421] Downloading: audi-a4-2016-15.jpg... ✓
+
+🚗 Processing: BMW 518 2023
+   📥 [164/421] Downloading: bmw-518-2023.jpg... ✓
+   📥 [165/421] Downloading: bmw-518-2023-1.jpg... ✓
+   📥 [166/421] Downloading: bmw-518-2023-2.jpg... ✓
+
+🚗 Processing: Audi A6 Sedan Business 40 TDI quatro S tronic
+   📥 [167/421] Downloading: audi-a6-sedan-business-40-tdi-quatro-s-tronic.jpeg... ✓
+   📥 [168/421] Downloading: audi-a6-sedan-business-40-tdi-quatro-s-tronic-1.jpeg... ✓
+   📥 [169/421] Downloading: audi-a6-sedan-business-40-tdi-quatro-s-tronic-2.jpeg... ✓
+   📥 [170/421] Downloading: audi-a6-sedan-business-40-tdi-quatro-s-tronic-3.jpeg... ✓
+   📥 [171/421] Downloading: audi-a6-sedan-business-40-tdi-quatro-s-tronic-4.jpeg... ✓
+   📥 [172/421] Downloading: audi-a6-sedan-business-40-tdi-quatro-s-tronic-5.jpeg... ✓
+   📥 [173/421] Downloading: audi-a6-sedan-business-40-tdi-quatro-s-tronic-6.jpeg... ✓
+   📥 [174/421] Downloading: audi-a6-sedan-business-40-tdi-quatro-s-tronic-7.jpeg... ✓
+   📥 [175/421] Downloading: audi-a6-sedan-business-40-tdi-quatro-s-tronic-8.jpeg... ✓
+
+🚗 Processing: Seat Tarraco 2.0 TDI 150 4DRIVE Xcellence DSG
+   📥 [176/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg.jpeg... ✓
+   📥 [177/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg-1.jpeg... ✓
+   📥 [178/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg-2.jpeg... ✓
+   📥 [179/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg-3.jpeg... ✓
+   📥 [180/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg-4.jpeg... ✓
+   📥 [181/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg-5.jpeg... ✓
+   📥 [182/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg-6.jpeg... ✓
+   📥 [183/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg-7.jpeg... ✓
+   📥 [184/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg-8.jpeg... ✓
+   📥 [185/421] Downloading: seat-tarraco-20-tdi-150-4drive-xcellence-dsg-9.jpeg... ✓
+
+🚗 Processing: BMW X3
+   📥 [186/421] Downloading: bmw-x3.jpeg... ✓
+   📥 [187/421] Downloading: bmw-x3-1.jpeg... ✓
+   📥 [188/421] Downloading: bmw-x3-2.jpeg... ✓
+   📥 [189/421] Downloading: bmw-x3-3.jpeg... ✓
+   📥 [190/421] Downloading: bmw-x3-4.jpeg... ✓
+   📥 [191/421] Downloading: bmw-x3-5.jpeg... ✓
+   📥 [192/421] Downloading: bmw-x3-6.jpeg... ✓
+   📥 [193/421] Downloading: bmw-x3-7.jpeg... ✓
+   📥 [194/421] Downloading: bmw-x3-8.jpeg... ✓
+
+🚗 Processing: BMW 518 G30 Sedan 518d A Business TULOSSA
+   📥 [195/421] Downloading: bmw-518-g30-sedan-518d-a-business-tulossa.jpeg... ✓
+   📥 [196/421] Downloading: bmw-518-g30-sedan-518d-a-business-tulossa-1.jpeg... ✓
+   📥 [197/421] Downloading: bmw-518-g30-sedan-518d-a-business-tulossa-2.jpeg... ✓
+   📥 [198/421] Downloading: bmw-518-g30-sedan-518d-a-business-tulossa-3.jpeg... ✓
+   📥 [199/421] Downloading: bmw-518-g30-sedan-518d-a-business-tulossa-4.jpeg... ✓
+   📥 [200/421] Downloading: bmw-518-g30-sedan-518d-a-business-tulossa-5.jpeg... ✓
+   📥 [201/421] Downloading: bmw-518-g30-sedan-518d-a-business-tulossa-6.jpeg... ✓
+   📥 [202/421] Downloading: bmw-518-g30-sedan-518d-a-business-tulossa-7.jpeg... ✓
+   📥 [203/421] Downloading: bmw-518-g30-sedan-518d-a-business-tulossa-8.jpeg... ✓
+
+🚗 Processing: Volkswagen Golf
+   📥 [204/421] Downloading: volkswagen-golf.jpeg... ✓
+   📥 [205/421] Downloading: volkswagen-golf-1.jpeg... ✓
+   📥 [206/421] Downloading: volkswagen-golf-2.jpeg... ✓
+   📥 [207/421] Downloading: volkswagen-golf-3.jpeg... ✓
+   📥 [208/421] Downloading: volkswagen-golf-4.jpeg... ✓
+   📥 [209/421] Downloading: volkswagen-golf-5.jpeg... ✓
+   📥 [210/421] Downloading: volkswagen-golf-6.jpeg... ✓
+   📥 [211/421] Downloading: volkswagen-golf-7.jpeg... ✓
+   📥 [212/421] Downloading: volkswagen-golf-8.jpeg... ✓
+
+🚗 Processing: Volkswagen Golf Allstar
+   ✓ Already exists: volkswagen-golf-allstar.jpeg
+   ✓ Already exists: volkswagen-golf-allstar-1.jpeg
+   ✓ Already exists: volkswagen-golf-allstar-2.jpeg
+   ✓ Already exists: volkswagen-golf-allstar-3.jpeg
+   ✓ Already exists: volkswagen-golf-allstar-4.jpeg
+   ✓ Already exists: volkswagen-golf-allstar-5.jpeg
+   ✓ Already exists: volkswagen-golf-allstar-6.jpeg
+   ✓ Already exists: volkswagen-golf-allstar-7.jpeg
+
+🚗 Processing: Skoda Superb
+   ✓ Already exists: skoda-superb.jpeg
+   ✓ Already exists: skoda-superb-1.jpeg
+   ✓ Already exists: skoda-superb-2.jpeg
+   ✓ Already exists: skoda-superb-3.jpeg
+   ✓ Already exists: skoda-superb-4.jpeg
+   ✓ Already exists: skoda-superb-5.jpeg
+   ✓ Already exists: skoda-superb-6.jpeg
+   ✓ Already exists: skoda-superb-7.jpeg
+   ✓ Already exists: skoda-superb-8.jpeg
+   ✓ Already exists: skoda-superb-9.jpeg
+
+🚗 Processing: Audi A6 Sedan Business Sport 3.0 V6 TDI 160 kW quattro
+   📥 [213/421] Downloading: audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro.jpeg... ✓
+   📥 [214/421] Downloading: audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-1.jpeg... ✓
+   📥 [215/421] Downloading: audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-2.jpeg... ✓
+   📥 [216/421] Downloading: audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-3.jpeg... ✓
+   📥 [217/421] Downloading: audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-4.jpeg... ✓
+   📥 [218/421] Downloading: audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-5.jpeg... ✓
+   📥 [219/421] Downloading: audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-6.jpeg... ✓
+   📥 [220/421] Downloading: audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-7.jpeg... ✓
+   📥 [221/421] Downloading: audi-a6-sedan-business-sport-30-v6-tdi-160-kw-quattro-8.jpeg... ✓
+
+🚗 Processing: BMW 320
+   ✓ Already exists: bmw-320.jpeg
+   ✓ Already exists: bmw-320-1.jpeg
+   ✓ Already exists: bmw-320-2.jpeg
+   ✓ Already exists: bmw-320-3.jpeg
+   ✓ Already exists: bmw-320-4.jpeg
+   ✓ Already exists: bmw-320-5.jpeg
+   ✓ Already exists: bmw-320-6.jpeg
+   ✓ Already exists: bmw-320-7.jpeg
+   ✓ Already exists: bmw-320-8.jpeg
+   ✓ Already exists: bmw-320-9.jpeg
+
+🚗 Processing: Mercedes-Benz E 220d Premium Business
+   ✓ Already exists: mercedes-benz-e-220d-premium-business.jpeg
+   ✓ Already exists: mercedes-benz-e-220d-premium-business-1.jpeg
+   ✓ Already exists: mercedes-benz-e-220d-premium-business-2.jpeg
+   ✓ Already exists: mercedes-benz-e-220d-premium-business-3.jpeg
+   ✓ Already exists: mercedes-benz-e-220d-premium-business-4.jpeg
+   ✓ Already exists: mercedes-benz-e-220d-premium-business-5.jpeg
+   ✓ Already exists: mercedes-benz-e-220d-premium-business-6.jpeg
+   ✓ Already exists: mercedes-benz-e-220d-premium-business-7.jpeg
+   ✓ Already exists: mercedes-benz-e-220d-premium-business-8.jpeg
+
+🚗 Processing: BMW 520 F10 Sedan 520d A xDrive Edition Exclusive
+   ✓ Already exists: bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive.jpeg
+   ✓ Already exists: bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-1.jpeg
+   ✓ Already exists: bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-2.jpeg
+   ✓ Already exists: bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-3.jpeg
+   ✓ Already exists: bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-4.jpeg
+   ✓ Already exists: bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-5.jpeg
+   ✓ Already exists: bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-6.jpeg
+   ✓ Already exists: bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-7.jpeg
+   ✓ Already exists: bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-8.jpeg
+
+🚗 Processing: Audi A6
+   📥 [222/421] Downloading: audi-a6.jpeg... ✓
+   📥 [223/421] Downloading: audi-a6-1.jpeg... ✓
+   ✓ Already exists: audi-a6-2.jpeg
+   📥 [224/421] Downloading: audi-a6-3.jpeg... ✓
+   📥 [225/421] Downloading: audi-a6-4.jpeg... ✓
+   📥 [226/421] Downloading: audi-a6-5.jpeg... ✓
+   📥 [227/421] Downloading: audi-a6-6.jpeg... ✓
+   📥 [228/421] Downloading: audi-a6-7.jpeg... ✓
+   📥 [229/421] Downloading: audi-a6-8.jpeg... ✓
+
+🚗 Processing: Audi A6 Avant 40 TDI MHEV quattro S tronic Business Design
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design.jpeg
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-1.jpeg
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-2.jpeg
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-3.jpeg
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-4.jpeg
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-5.jpeg
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-6.jpeg
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-7.jpeg
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-8.jpeg
+   ✓ Already exists: audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-9.jpeg
+
+🚗 Processing: Skoda SuperB
+   ✓ Already exists: skoda-superb.jpeg
+   ✓ Already exists: skoda-superb-1.jpeg
+   ✓ Already exists: skoda-superb-2.jpeg
+   ✓ Already exists: skoda-superb-3.jpeg
+   ✓ Already exists: skoda-superb-4.jpeg
+   ✓ Already exists: skoda-superb-5.jpeg
+   ✓ Already exists: skoda-superb-6.jpeg
+   ✓ Already exists: skoda-superb-7.jpeg
+   ✓ Already exists: skoda-superb-8.jpeg
+   ✓ Already exists: skoda-superb-9.jpeg
+
+🚗 Processing: Mercedes Benz E220 AMG Paketti
+   ✓ Already exists: mercedes-benz-e220-amg-paketti.jpeg
+   ✓ Already exists: mercedes-benz-e220-amg-paketti-1.jpeg
+   ✓ Already exists: mercedes-benz-e220-amg-paketti-2.jpeg
+   ✓ Already exists: mercedes-benz-e220-amg-paketti-3.jpeg
+   ✓ Already exists: mercedes-benz-e220-amg-paketti-4.jpeg
+   ✓ Already exists: mercedes-benz-e220-amg-paketti-5.jpeg
+   ✓ Already exists: mercedes-benz-e220-amg-paketti-6.jpeg
+   ✓ Already exists: mercedes-benz-e220-amg-paketti-7.jpeg
+
+🚗 Processing: Mercedes Benz E220
+   ✓ Already exists: mercedes-benz-e220.jpeg
+   ✓ Already exists: mercedes-benz-e220-1.jpeg
+   ✓ Already exists: mercedes-benz-e220-2.jpeg
+   ✓ Already exists: mercedes-benz-e220-3.jpeg
+   ✓ Already exists: mercedes-benz-e220-4.jpeg
+   ✓ Already exists: mercedes-benz-e220-5.jpeg
+   ✓ Already exists: mercedes-benz-e220-6.jpeg
+   ✓ Already exists: mercedes-benz-e220-7.jpeg
+   ✓ Already exists: mercedes-benz-e220-8.jpeg
+   ✓ Already exists: mercedes-benz-e220-9.jpeg
+
+🚗 Processing: Skoda Octavia 1.6 TDI Syle
+   📥 [230/421] Downloading: skoda-octavia-16-tdi-syle.jpeg... ✓
+   📥 [231/421] Downloading: skoda-octavia-16-tdi-syle-1.jpeg... ✓
+   📥 [232/421] Downloading: skoda-octavia-16-tdi-syle-2.jpeg... ✓
+   📥 [233/421] Downloading: skoda-octavia-16-tdi-syle-3.jpeg... ✓
+   📥 [234/421] Downloading: skoda-octavia-16-tdi-syle-4.jpeg... ✓
+   📥 [235/421] Downloading: skoda-octavia-16-tdi-syle-5.jpeg... ✓
+   📥 [236/421] Downloading: skoda-octavia-16-tdi-syle-6.jpeg... ✓
+   📥 [237/421] Downloading: skoda-octavia-16-tdi-syle-7.jpeg... ✓
+
+🚗 Processing: Audi A6
+   ✓ Already exists: audi-a6.jpeg
+   ✓ Already exists: audi-a6-1.jpeg
+   ✓ Already exists: audi-a6-2.jpeg
+   ✓ Already exists: audi-a6-3.jpeg
+   ✓ Already exists: audi-a6-4.jpeg
+   ✓ Already exists: audi-a6-5.jpeg
+   ✓ Already exists: audi-a6-6.jpeg
+   ✓ Already exists: audi-a6-7.jpeg
+   ✓ Already exists: audi-a6-8.jpeg
+
+🚗 Processing: VW Passat 1.6
+   📥 [238/421] Downloading: vw-passat-16.jpeg... ✓
+   📥 [239/421] Downloading: vw-passat-16-1.jpeg... ✓
+   📥 [240/421] Downloading: vw-passat-16-2.jpeg... ✓
+   📥 [241/421] Downloading: vw-passat-16-3.jpeg... ✓
+   📥 [242/421] Downloading: vw-passat-16-4.jpeg... ✓
+   📥 [243/421] Downloading: vw-passat-16-5.jpeg... ✓
+   📥 [244/421] Downloading: vw-passat-16-6.jpeg... ✓
+   📥 [245/421] Downloading: vw-passat-16-7.jpeg... ✓
+   📥 [246/421] Downloading: vw-passat-16-8.jpeg... ✓
+   📥 [247/421] Downloading: vw-passat-16-9.jpeg... ✓
+   📥 [248/421] Downloading: vw-passat-16-10.jpeg... ✓
+
+🚗 Processing: Seat Tarraco 2.0
+   📥 [249/421] Downloading: seat-tarraco-20.jpeg... ✓
+   📥 [250/421] Downloading: seat-tarraco-20-1.jpeg... ✓
+   📥 [251/421] Downloading: seat-tarraco-20-2.jpeg... ✓
+   📥 [252/421] Downloading: seat-tarraco-20-3.jpeg... ✓
+   📥 [253/421] Downloading: seat-tarraco-20-4.jpeg... ✓
+   📥 [254/421] Downloading: seat-tarraco-20-5.jpeg... ✓
+   📥 [255/421] Downloading: seat-tarraco-20-6.jpeg... ✓
+   📥 [256/421] Downloading: seat-tarraco-20-7.jpeg... ✓
+   📥 [257/421] Downloading: seat-tarraco-20-8.jpeg... ✓
+   📥 [258/421] Downloading: seat-tarraco-20-9.jpeg... ✓
+
+🚗 Processing: Audi A4 Allroad 2.0
+   📥 [259/421] Downloading: audi-a4-allroad-20.jpeg... ✓
+   📥 [260/421] Downloading: audi-a4-allroad-20-1.jpeg... ✓
+   📥 [261/421] Downloading: audi-a4-allroad-20-2.jpeg... ✓
+   📥 [262/421] Downloading: audi-a4-allroad-20-3.jpeg... ✓
+   📥 [263/421] Downloading: audi-a4-allroad-20-4.jpeg... ✓
+   📥 [264/421] Downloading: audi-a4-allroad-20-5.jpeg... ✓
+   📥 [265/421] Downloading: audi-a4-allroad-20-6.jpeg... ✓
+   📥 [266/421] Downloading: audi-a4-allroad-20-7.jpeg... ✓
+
+🚗 Processing: BMW X5
+   ✓ Already exists: bmw-x5.jpeg
+   ✓ Already exists: bmw-x5-1.jpeg
+   ✓ Already exists: bmw-x5-2.jpeg
+   ✓ Already exists: bmw-x5-3.jpeg
+   ✓ Already exists: bmw-x5-4.jpeg
+   ✓ Already exists: bmw-x5-5.jpeg
+   ✓ Already exists: bmw-x5-6.jpeg
+   ✓ Already exists: bmw-x5-7.jpeg
+   ✓ Already exists: bmw-x5-8.jpeg
+
+🚗 Processing: Audi Q5 2.0
+   📥 [267/421] Downloading: audi-q5-20.jpeg... ✓
+   📥 [268/421] Downloading: audi-q5-20-1.jpeg... ✓
+   📥 [269/421] Downloading: audi-q5-20-2.jpeg... ✓
+   📥 [270/421] Downloading: audi-q5-20-3.jpeg... ✓
+   📥 [271/421] Downloading: audi-q5-20-4.jpeg... ✓
+   📥 [272/421] Downloading: audi-q5-20-5.jpeg... ✓
+   📥 [273/421] Downloading: audi-q5-20-6.jpeg... ✓
+   📥 [274/421] Downloading: audi-q5-20-7.jpeg... ✓
+   📥 [275/421] Downloading: audi-q5-20-8.jpeg... ✓
+
+🚗 Processing: Skoda Octavia 1.6 diesel automaatti 2020
+   📥 [276/421] Downloading: skoda-octavia-16-diesel-automaatti-2020.jpeg... ✓
+   📥 [277/421] Downloading: skoda-octavia-16-diesel-automaatti-2020-1.jpeg... ✓
+   📥 [278/421] Downloading: skoda-octavia-16-diesel-automaatti-2020-2.jpeg... ✓
+   📥 [279/421] Downloading: skoda-octavia-16-diesel-automaatti-2020-3.jpeg... ✓
+   📥 [280/421] Downloading: skoda-octavia-16-diesel-automaatti-2020-4.jpeg... ✓
+   📥 [281/421] Downloading: skoda-octavia-16-diesel-automaatti-2020-5.jpeg... ✓
+   📥 [282/421] Downloading: skoda-octavia-16-diesel-automaatti-2020-6.jpeg... ✓
+   📥 [283/421] Downloading: skoda-octavia-16-diesel-automaatti-2020-7.jpeg... ✓
+   📥 [284/421] Downloading: skoda-octavia-16-diesel-automaatti-2020-8.jpeg... ✓
+
+==================================================
+✅ Download complete!
+📊 Statistics:
+   Total images: 421
+   Downloaded: 421
+   Failed: 0
+
+📝 Mapping saved to: /home/behar/Desktop/New Folder/kroi-auto-center/scripts/image-mapping.json
+
+📌 Next step: Run node scripts/update-image-paths.js
