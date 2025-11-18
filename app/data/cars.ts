@@ -7544,36 +7544,3 @@ export function getRelatedCars(currentCarId: string, limit: number = 3): Car[] {
 
   return related.slice(0, limit);
 }
-
-export function getCarById(id: string): Car | undefined {
-  return cars.find(car => car.id === id || car.slug === id);
-}
-
-export function getCarsByBrand(brand: string): Car[] {
-  return cars.filter(car => car.brand.toLowerCase() === brand.toLowerCase());
-}
-
-export function getCarsByCategory(category: string): Car[] {
-  return cars.filter(car => car.category === category);
-}
-
-export function getRelatedCars(currentCarId: string, limit: number = 3): Car[] {
-  const currentCar = getCarById(currentCarId);
-  if (!currentCar) return [];
-
-  let related = getCarsByBrand(currentCar.brand).filter(car => car.id !== currentCarId);
-
-  if (related.length < limit) {
-    const categoryMatches = getCarsByCategory(currentCar.category)
-      .filter(car => car.id !== currentCarId && !related.find(r => r.id === car.id));
-    related = [...related, ...categoryMatches];
-  }
-
-  if (related.length < limit) {
-    const others = cars
-      .filter(car => car.id !== currentCarId && !related.find(r => r.id === car.id));
-    related = [...related, ...others];
-  }
-
-  return related.slice(0, limit);
-}
