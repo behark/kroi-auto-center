@@ -1,3 +1,18 @@
+// Auto-generated from WordPress export
+// 59 cars from Kroi Autocenter
+
+export interface CarImage {
+  url: string;
+  altText: string;
+  order: number;
+  isPrimary: boolean;
+}
+
+export interface CarSpecification {
+  label: string;
+  value: string;
+}
+
 export interface Car {
   id: string;
   slug: string;
@@ -15,1882 +30,4185 @@ export interface Car {
   description: string;
   detailedDescription: string[];
   features: string[];
-  specifications: {
-    label: string;
-    value: string;
-  }[];
+  specifications: CarSpecification[];
   condition: string;
   category: string;
   status: string;
   featured: boolean;
-  images: {
-    url: string;
-    altText: string;
-    order: number;
-    isPrimary: boolean;
-  }[];
+  images: CarImage[];
 }
 
 export const cars: Car[] = [
   {
-    id: 'audi-q5-2-0',
-    slug: 'audi-q5-2-0',
-    name: 'Audi Q5 2.0',
-    brand: 'Audi',
-    model: 'Q5',
-    price: '€22.400',
-    priceEur: 22400,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/audi-q5-2-0.jpeg',
-    description: 'Audi Q5 vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Audi Audi Q5 2.0 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "audi_q3_15_900_e",
+    "slug": "audi-q3-15-900-e",
+    "name": "Audi Q3",
+    "brand": "Audi",
+    "model": "Q3",
+    "price": "15 900 €",
+    "priceEur": 15900,
+    "year": "2017",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "193 000 km",
+    "kmNumber": 193000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi Q3 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Brake Calipers Silver Painted',
-      'Heated And Ventilated Front Seats',
-      'Heated Seats',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Silver väri",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Silver' },
-      { label: 'Vetotapa', value: 'ALL WHEEL DRIVE AWD 4WD' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Suv' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2017"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "193 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Silver"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'suv',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/audi-q5-2-0.jpeg',
-        altText: 'audi-q5-2-0',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/audi-q5-2-0-1.jpeg',
-        altText: 'audi-q5-2-0',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-q5-2-0-2.jpeg',
-        altText: 'audi-q5-2-0',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-q5-2-0-3.jpeg',
-        altText: 'audi-q5-2-0',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-q5-2-0-4.jpeg',
-        altText: 'audi-q5-2-0',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-q5-2-0-5.jpeg',
-        altText: 'audi-q5-2-0',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-q5-2-0-6.jpeg',
-        altText: 'audi-q5-2-0',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-q5-2-0-7.jpeg',
-        altText: 'audi-q5-2-0',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-q5-2-0-8.jpeg',
-        altText: 'audi-q5-2-0',
-        order: 9,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi Q3",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'bmw-x5',
-    slug: 'bmw-x5',
-    name: 'BMW X5',
-    brand: 'Bmw',
-    model: 'X5',
-    price: '€59.000',
-    priceEur: 59000,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/bmw-x5.jpeg',
-    description: 'Bmw X5 vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Bmw BMW X5 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "audi_q3_knb_12_8",
+    "slug": "audi-q3-knb-12-890-e",
+    "name": "Audi Q3",
+    "brand": "Audi",
+    "model": "Q3",
+    "price": "12 890 €",
+    "priceEur": 12890,
+    "year": "2014",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "194 000 km",
+    "kmNumber": 194000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2014. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2014. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi Q3 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Brake Calipers Silver Painted',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Black väri",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Black' },
-      { label: 'Vetotapa', value: 'ALL WHEEL DRIVE AWD 4WD' },
-      { label: 'Ovet', value: 'N/A' },
-      { label: 'Tyyppi', value: 'Suv' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2014"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "194 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'suv',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/bmw-x5.jpeg',
-        altText: 'bmw-x5',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/bmw-x5-1.jpeg',
-        altText: 'bmw-x5',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-x5-2.jpeg',
-        altText: 'bmw-x5',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-x5-3.jpeg',
-        altText: 'bmw-x5',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-x5-4.jpeg',
-        altText: 'bmw-x5',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-x5-5.jpeg',
-        altText: 'bmw-x5',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-x5-6.jpeg',
-        altText: 'bmw-x5',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-x5-7.jpeg',
-        altText: 'bmw-x5',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-x5-8.jpeg',
-        altText: 'bmw-x5',
-        order: 9,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi Q3",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'audi-a4-allroad-2-0',
-    slug: 'audi-a4-allroad-2-0',
-    name: 'Audi A4 Allroad 2.0',
-    brand: 'Audi',
-    model: 'A4',
-    price: '€21.430',
-    priceEur: 21430,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/audi-a4-allroad-2-0.jpeg',
-    description: 'Audi A4 vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Audi Audi A4 Allroad 2.0 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "bmw_520_g30_seda",
+    "slug": "bmw-520-g30-sedan-520d-a-xdrive-business-20000e",
+    "name": "BMW BMW 520",
+    "brand": "BMW",
+    "model": "BMW 520",
+    "price": "20 000 €",
+    "priceEur": 20000,
+    "year": "2018",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "220 000 km",
+    "kmNumber": 220000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2018. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2018. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä BMW BMW 520 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Brake Calipers Silver Painted',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Black väri",
+      "4 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Black' },
-      { label: 'Vetotapa', value: 'ALL WHEEL DRIVE AWD 4WD' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Compact' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2018"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "220 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'family',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/audi-a4-allroad-2-0.jpeg',
-        altText: 'audi-a4-allroad-2-0',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/audi-a4-allroad-2-0-1.jpeg',
-        altText: 'audi-a4-allroad-2-0',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a4-allroad-2-0-2.jpeg',
-        altText: 'audi-a4-allroad-2-0',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a4-allroad-2-0-3.jpeg',
-        altText: 'audi-a4-allroad-2-0',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a4-allroad-2-0-4.jpeg',
-        altText: 'audi-a4-allroad-2-0',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a4-allroad-2-0-5.jpeg',
-        altText: 'audi-a4-allroad-2-0',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a4-allroad-2-0-6.jpeg',
-        altText: 'audi-a4-allroad-2-0',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a4-allroad-2-0-7.jpeg',
-        altText: 'audi-a4-allroad-2-0',
-        order: 9,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "BMW BMW 520",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'skoda-octavia-1-6-diesel-automaatti-2020',
-    slug: 'skoda-octavia-1-6-diesel-automaatti-2020',
-    name: 'Skoda Octavia 1.6 diesel automaatti 2020',
-    brand: 'Skoda',
-    model: 'Octavia',
-    price: '€9.500',
-    priceEur: 9500,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/skoda-octavia-1-6-diesel-automaatti-2020.jpeg',
-    description: 'Skoda Octavia vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Skoda Skoda Octavia 1.6 diesel automaatti 2020 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_passa",
+    "slug": "volkswagen-passat-comfortline-13900e",
+    "name": "Volkswagen Passat",
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "price": "13 900 €",
+    "priceEur": 13900,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "206 000 km",
+    "kmNumber": 206000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Passat on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
-      'Heated Seats',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Blue väri",
+      "4 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Gray' },
-      { label: 'Vetotapa', value: 'FRONT WHEEL DRIVE' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "206 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Blue"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/skoda-octavia-1-6-diesel-automaatti-2020.jpeg',
-        altText: 'skoda-octavia-1-6-diesel-automaatti-2020',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/skoda-octavia-1-6-diesel-automaatti-2020-1.jpeg',
-        altText: 'skoda-octavia-1-6-diesel-automaatti-2020',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-octavia-1-6-diesel-automaatti-2020-2.jpeg',
-        altText: 'skoda-octavia-1-6-diesel-automaatti-2020',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-octavia-1-6-diesel-automaatti-2020-3.jpeg',
-        altText: 'skoda-octavia-1-6-diesel-automaatti-2020',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-octavia-1-6-diesel-automaatti-2020-4.jpeg',
-        altText: 'skoda-octavia-1-6-diesel-automaatti-2020',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-octavia-1-6-diesel-automaatti-2020-5.jpeg',
-        altText: 'skoda-octavia-1-6-diesel-automaatti-2020',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-octavia-1-6-diesel-automaatti-2020-6.jpeg',
-        altText: 'skoda-octavia-1-6-diesel-automaatti-2020',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-octavia-1-6-diesel-automaatti-2020-7.jpeg',
-        altText: 'skoda-octavia-1-6-diesel-automaatti-2020',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-octavia-1-6-diesel-automaatti-2020-8.jpeg',
-        altText: 'skoda-octavia-1-6-diesel-automaatti-2020',
-        order: 9,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Passat",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'seat-tarraco-2-0',
-    slug: 'seat-tarraco-2-0',
-    name: 'Seat Tarraco 2.0',
-    brand: 'Seat',
-    model: 'Tarraco',
-    price: '€19.900',
-    priceEur: 19900,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/seat-tarraco-2-0.jpeg',
-    description: 'Seat Tarraco vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Seat Seat Tarraco 2.0 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_passa",
+    "slug": "volkswagen-passat-variant-highline-20-tdi-11500e-2",
+    "name": "Volkswagen Passat",
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "price": "11 500 €",
+    "priceEur": 11500,
+    "year": "2017",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "238 000 km",
+    "kmNumber": 238000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Passat on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
-      'Heated Seats',
+    "features": [
+      "Etuveto",
+      "Blue väri",
+      "4 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'White' },
-      { label: 'Vetotapa', value: 'ALL WHEEL DRIVE AWD 4WD' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Suv' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2017"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "238 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Blue"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'suv',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Viistoperä",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/seat-tarraco-2-0.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/seat-tarraco-2-0-1.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/seat-tarraco-2-0-2.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/seat-tarraco-2-0-3.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/seat-tarraco-2-0-4.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/seat-tarraco-2-0-5.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/seat-tarraco-2-0-6.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/seat-tarraco-2-0-7.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 9,
-        isPrimary: false
-      },
-      {
-        url: '/cars/seat-tarraco-2-0-8.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 10,
-        isPrimary: false
-      },
-      {
-        url: '/cars/seat-tarraco-2-0-9.jpeg',
-        altText: 'seat-tarraco-2-0',
-        order: 11,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Passat",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'vw-passat-1-6',
-    slug: 'vw-passat-1-6',
-    name: 'VW Passat 1.6',
-    brand: 'Volkswagen',
-    model: 'Passat',
-    price: '€8.000',
-    priceEur: 8000,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/vw-passat-1-6.jpeg',
-    description: 'Volkswagen Passat vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Volkswagen VW Passat 1.6 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_tigua",
+    "slug": "volkswagen-tiguan-allspace-20-tdi-scr-110-kw-150-hv-19000e",
+    "name": "Volkswagen Tiguan Allspace",
+    "brand": "Volkswagen",
+    "model": "Tiguan Allspace",
+    "price": "19 000 €",
+    "priceEur": 19000,
+    "year": "2017",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "200 000 km",
+    "kmNumber": 200000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Tiguan Allspace on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Anti Lock Braking System',
-      'Bluetooth',
-      'Brake Assist',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
-      'Heated Seats',
-      'Heated Steering Wheel',
-      'Tyre Pressure Monitoring System',
-      'Windows Electric Front',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Gray väri",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Gray' },
-      { label: 'Vetotapa', value: 'FRONT WHEEL DRIVE' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Compact' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2017"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "200 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Gray"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'family',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/vw-passat-1-6.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/vw-passat-1-6-1.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-2.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-3.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-4.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-5.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-6.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-7.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 9,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-8.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 10,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-9.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 11,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-10.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 12,
-        isPrimary: false
-      },
-      {
-        url: '/cars/vw-passat-1-6-11.jpeg',
-        altText: 'vw-passat-1-6',
-        order: 13,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Tiguan Allspace",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'audi-a6',
-    slug: 'audi-a6',
-    name: 'Audi A6',
-    brand: 'Audi',
-    model: 'A6',
-    price: '€16.800',
-    priceEur: 16800,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/audi-a6-2.jpeg',
-    description: 'Audi A6 vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Audi Audi A6 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_tigua",
+    "slug": "volkswagen-tiguan-r-line-20-tdi-37-000-e",
+    "name": "Volkswagen iguan R-Line",
+    "brand": "Volkswagen",
+    "model": "iguan R-Line",
+    "price": "37 000 €",
+    "priceEur": 37000,
+    "year": "2021",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "76 000 km",
+    "kmNumber": 76000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2021. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2021. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen iguan R-Line on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Brake Calipers Silver Painted',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "White väri",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'White' },
-      { label: 'Vetotapa', value: 'FRONT WHEEL DRIVE' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
-    ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "specifications": [
       {
-        url: '/cars/audi-a6-2.jpeg',
-        altText: 'Audi A6',
-        order: 1,
-        isPrimary: true
+        "label": "Vuosi",
+        "value": "2021"
       },
+      {
+        "label": "Mittarilukema",
+        "value": "76 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen iguan R-Line",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'mercedes-benz-e220-amg-paketti',
-    slug: 'mercedes-benz-e220-amg-paketti',
-    name: 'Mercedes Benz E220 AMG Paketti',
-    brand: 'Mercedes Benz',
-    model: 'E Class',
-    price: '€20.500',
-    priceEur: 20500,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/mercedes-benz-e220-amg-paketti.jpeg',
-    description: 'Mercedes Benz E Class vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Mercedes Benz Mercedes Benz E220 AMG Paketti on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "mercedes_benz_e",
+    "slug": "mercedes-benz-e",
+    "name": "Mercedes-Benz E-Class",
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "price": "26 980 €",
+    "priceEur": 26980,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "144 000 km",
+    "kmNumber": 144000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Mercedes-Benz E-Class on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Brake Calipers Silver Painted',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
+    "features": [
+      "Takaveto",
+      "4 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Silver' },
-      { label: 'Vetotapa', value: 'REAR WHEEL DRIVE' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "144 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Takaveto"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/mercedes-benz-e220-amg-paketti.jpeg',
-        altText: 'mercedes-benz-e220-amg-paketti',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/mercedes-benz-e220-amg-paketti-1.jpeg',
-        altText: 'mercedes-benz-e220-amg-paketti',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-amg-paketti-2.jpeg',
-        altText: 'mercedes-benz-e220-amg-paketti',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-amg-paketti-3.jpeg',
-        altText: 'mercedes-benz-e220-amg-paketti',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-amg-paketti-4.jpeg',
-        altText: 'mercedes-benz-e220-amg-paketti',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-amg-paketti-5.jpeg',
-        altText: 'mercedes-benz-e220-amg-paketti',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-amg-paketti-6.jpeg',
-        altText: 'mercedes-benz-e220-amg-paketti',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-amg-paketti-7.jpeg',
-        altText: 'mercedes-benz-e220-amg-paketti',
-        order: 9,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Mercedes-Benz E-Class",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'skoda-superb',
-    slug: 'skoda-superb',
-    name: 'Skoda SuperB',
-    brand: 'Skoda',
-    model: 'Superb',
-    price: '€14.900',
-    priceEur: 14900,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/skoda-superb.jpeg',
-    description: 'Skoda Superb vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Skoda Skoda SuperB on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "seat_tarraco",
+    "slug": "seat-tarraco",
+    "name": "Seat Tarraco",
+    "brand": "Seat",
+    "model": "Tarraco",
+    "price": "23 900 €",
+    "priceEur": 23900,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "170 000 km",
+    "kmNumber": 170000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Seat Tarraco on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Brake Calipers Silver Painted',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'White' },
-      { label: 'Vetotapa', value: 'REAR WHEEL DRIVE' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "170 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/skoda-superb.jpeg',
-        altText: 'skoda-superb',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/skoda-superb-1.jpeg',
-        altText: 'skoda-superb',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-2.jpeg',
-        altText: 'skoda-superb',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-3.jpeg',
-        altText: 'skoda-superb',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-4.jpeg',
-        altText: 'skoda-superb',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-5.jpeg',
-        altText: 'skoda-superb',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-6.jpeg',
-        altText: 'skoda-superb',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-7.jpeg',
-        altText: 'skoda-superb',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-8.jpeg',
-        altText: 'skoda-superb',
-        order: 9,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-9.jpeg',
-        altText: 'skoda-superb',
-        order: 10,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Seat Tarraco",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'mercedes-benz-e220',
-    slug: 'mercedes-benz-e220',
-    name: 'Mercedes Benz E220',
-    brand: 'Mercedes Benz',
-    model: 'E Class',
-    price: '€23.000',
-    priceEur: 23000,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/mercedes-benz-e220.jpeg',
-    description: 'Mercedes Benz E Class vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Mercedes Benz Mercedes Benz E220 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_tigua",
+    "slug": "volkswagen-tiguan",
+    "name": "Volkswagen Tiguan",
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "price": "19 890 €",
+    "priceEur": 19890,
+    "year": "2017",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "167 000 km",
+    "kmNumber": 167000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Tiguan on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Brake Calipers Silver Painted',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Black' },
-      { label: 'Vetotapa', value: 'REAR WHEEL DRIVE' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2017"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "167 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/mercedes-benz-e220.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/mercedes-benz-e220-1.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-2.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-3.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-4.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-5.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-6.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-7.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-8.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 9,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e220-9.jpeg',
-        altText: 'mercedes-benz-e220',
-        order: 10,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Tiguan",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'bmw-320',
-    slug: 'bmw-320',
-    name: 'BMW 320',
-    brand: 'Bmw',
-    model: '215',
-    price: '€23.980',
-    priceEur: 23980,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/bmw-320.jpeg',
-    description: 'Bmw 215 vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Bmw BMW 320 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_t_roc",
+    "slug": "volkswagen-t-roc",
+    "name": "Volkswagen T-Roc",
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "price": "20 690 €",
+    "priceEur": 20690,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "84 000 km",
+    "kmNumber": 84000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen T-Roc on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
-      'Heated Seats',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Gray' },
-      { label: 'Vetotapa', value: 'ALL WHEEL DRIVE AWD 4WD' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "84 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/bmw-320.jpeg',
-        altText: 'bmw-320',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/bmw-320-1.jpeg',
-        altText: 'bmw-320',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-320-2.jpeg',
-        altText: 'bmw-320',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-320-3.jpeg',
-        altText: 'bmw-320',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-320-4.jpeg',
-        altText: 'bmw-320',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-320-5.jpeg',
-        altText: 'bmw-320',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-320-6.jpeg',
-        altText: 'bmw-320',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-320-7.jpeg',
-        altText: 'bmw-320',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-320-8.jpeg',
-        altText: 'bmw-320',
-        order: 9,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-320-9.jpeg',
-        altText: 'bmw-320',
-        order: 10,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen T-Roc",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-    slug: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-    name: 'Audi A6 Sedan Business Sport 3.0 V6 TDI 160 kW quattro',
-    brand: 'Audi',
-    model: 'A6',
-    price: '€11.000',
-    priceEur: 11000,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro.jpeg',
-    description: 'Audi A6 vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Audi Audi A6 Sedan Business Sport 3.0 V6 TDI 160 kW quattro on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_tigua",
+    "slug": "volkswagen-tiguan-3",
+    "name": "Volkswagen Tiguan",
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "price": "26 890 €",
+    "priceEur": 26890,
+    "year": "2021",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "159 000 km",
+    "kmNumber": 159000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2021. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2021. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Tiguan on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Bluetooth',
-      'Brake Assist',
-      'Heated Seats',
-      'Navigation System',
-      'Stability Control',
-      'Tyre Pressure Monitoring System',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Silver' },
-      { label: 'Vetotapa', value: 'ALL WHEEL DRIVE AWD 4WD' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2021"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "159 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro.jpeg',
-        altText: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-1.jpeg',
-        altText: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-2.jpeg',
-        altText: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-3.jpeg',
-        altText: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-4.jpeg',
-        altText: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-5.jpeg',
-        altText: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-6.jpeg',
-        altText: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-7.jpeg',
-        altText: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro-8.jpeg',
-        altText: 'audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro',
-        order: 9,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Tiguan",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'skoda-superb',
-    slug: 'skoda-superb',
-    name: 'Skoda Superb',
-    brand: 'Skoda',
-    model: 'Superb',
-    price: '€9.900',
-    priceEur: 9900,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/skoda-superb.jpeg',
-    description: 'Skoda Superb vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Skoda Skoda Superb on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_tigua",
+    "slug": "volkswagen-tiguan-allspace",
+    "name": "Volkswagen Tiguan Allspace",
+    "brand": "Volkswagen",
+    "model": "Tiguan Allspace",
+    "price": "22 990 €",
+    "priceEur": 22990,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "200 000 km",
+    "kmNumber": 200000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Tiguan Allspace on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Heated Seats',
-      'Heated Steering Wheel',
-      'Navigation System',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Gray' },
-      { label: 'Vetotapa', value: 'FRONT WHEEL DRIVE' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Compact' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "200 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'family',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/skoda-superb.jpeg',
-        altText: 'skoda-superb',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/skoda-superb-1.jpeg',
-        altText: 'skoda-superb',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-2.jpeg',
-        altText: 'skoda-superb',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-3.jpeg',
-        altText: 'skoda-superb',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-4.jpeg',
-        altText: 'skoda-superb',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-5.jpeg',
-        altText: 'skoda-superb',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-6.jpeg',
-        altText: 'skoda-superb',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-7.jpeg',
-        altText: 'skoda-superb',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-8.jpeg',
-        altText: 'skoda-superb',
-        order: 9,
-        isPrimary: false
-      },
-      {
-        url: '/cars/skoda-superb-9.jpeg',
-        altText: 'skoda-superb',
-        order: 10,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Tiguan Allspace",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-    slug: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-    name: 'Audi A6 Avant 40 TDI MHEV quattro S tronic Business Design',
-    brand: 'Audi',
-    model: 'A6',
-    price: '€24.850',
-    priceEur: 24850,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design.jpeg',
-    description: 'Audi A6 vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Audi Audi A6 Avant 40 TDI MHEV quattro S tronic Business Design on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "audi_q5_2_0_tdi_",
+    "slug": "audi-q5-2-0-tdi-140-kw-quattro-s-tronic-s-line",
+    "name": "Audi Q5",
+    "brand": "Audi",
+    "model": "Q5",
+    "price": "23 490 €",
+    "priceEur": 23490,
+    "year": "2017",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "187 000 km",
+    "kmNumber": 187000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi Q5 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
-      'Heated Seats',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "White väri",
+      "4 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Black' },
-      { label: 'Vetotapa', value: 'ALL WHEEL DRIVE AWD 4WD' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Compact' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2017"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "187 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'family',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-1.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-2.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-3.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-4.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-5.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-6.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-7.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 9,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-8.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 10,
-        isPrimary: false
-      },
-      {
-        url: '/cars/audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design-9.jpeg',
-        altText: 'audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design',
-        order: 11,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi Q5",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'audi-a6',
-    slug: 'audi-a6',
-    name: 'Audi A6',
-    brand: 'Audi',
-    model: 'A6',
-    price: '€16.500',
-    priceEur: 16500,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/audi-a6-2.jpeg',
-    description: 'Audi A6 vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Audi Audi A6 on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_t_roc",
+    "slug": "volkswagen-t-roc-2",
+    "name": "Volkswagen T-Roc",
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "price": "22 900 €",
+    "priceEur": 22900,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "116 000 km",
+    "kmNumber": 116000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen T-Roc on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Bluetooth',
-      'Brake Assist',
-      'Heated Seats',
-      'Heated Steering Wheel',
-      'Navigation System',
-      'Stability Control',
-      'Tyre Pressure Monitoring System',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'White' },
-      { label: 'Vetotapa', value: 'ALL WHEEL DRIVE AWD 4WD' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
-    ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "specifications": [
       {
-        url: '/cars/audi-a6-2.jpeg',
-        altText: 'Audi A6',
-        order: 1,
-        isPrimary: true
+        "label": "Vuosi",
+        "value": "2019"
       },
+      {
+        "label": "Mittarilukema",
+        "value": "116 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen T-Roc",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-    slug: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-    name: 'BMW 520 F10 Sedan 520d A xDrive Edition Exclusive',
-    brand: 'Bmw',
-    model: 'Bmw 520',
-    price: '€11.500',
-    priceEur: 11500,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive.jpeg',
-    description: 'Bmw Bmw 520 vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Bmw BMW 520 F10 Sedan 520d A xDrive Edition Exclusive on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "audi_a4",
+    "slug": "audi-a4",
+    "name": "Audi A4",
+    "brand": "Audi",
+    "model": "A4",
+    "price": "22 690 €",
+    "priceEur": 22690,
+    "year": "2020",
+    "fuel": "Bensiini",
+    "transmission": "Automaatti",
+    "km": "134 000 km",
+    "kmNumber": 134000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Bensiini. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Bensiini. Automaatti. 2.0L moottori.",
+      "Tämä Audi A4 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Bluetooth',
-      'Brake Assist',
-      'Heated Seats',
-      'Heated Steering Wheel',
-      'Navigation System',
-      'Stability Control',
-      'Tyre Pressure Monitoring System',
+    "features": [
+      "Etuveto",
+      "4 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'Black' },
-      { label: 'Vetotapa', value: 'ALL WHEEL DRIVE AWD 4WD' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "134 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Bensiini"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Viistoperä",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive.jpeg',
-        altText: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-1.jpeg',
-        altText: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-2.jpeg',
-        altText: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-3.jpeg',
-        altText: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-4.jpeg',
-        altText: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-5.jpeg',
-        altText: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-6.jpeg',
-        altText: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-7.jpeg',
-        altText: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive-8.jpeg',
-        altText: 'bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive',
-        order: 9,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A4",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'mercedes-benz-e-220d-premium-business',
-    slug: 'mercedes-benz-e-220d-premium-business',
-    name: 'Mercedes-Benz E 220d Premium Business',
-    brand: 'Mercedes Benz',
-    model: 'E Class',
-    price: '€20.480',
-    priceEur: 20480,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/mercedes-benz-e-220d-premium-business.jpeg',
-    description: 'Mercedes Benz E Class vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Mercedes Benz Mercedes-Benz E 220d Premium Business on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "volkswagen_t_roc",
+    "slug": "volkswagen-t-roc-3",
+    "name": "Volkswagen T-Roc",
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "price": "19 800 €",
+    "priceEur": 19800,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "180 200 km",
+    "kmNumber": 180200,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen T-Roc on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Anti Lock Braking System',
-      'Apple Carplay Android Auto',
-      'Backup Camera',
-      'Blind Spot Monitor',
-      'Bluetooth',
-      'Brake Assist',
-      'Center Console',
-      'Heated And Ventilated Front Seats',
-      'Heated Seats',
-      'Heated Steering Wheel',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "5 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'White' },
-      { label: 'Vetotapa', value: 'REAR WHEEL DRIVE' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Sedan' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "180 200 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'premium',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/mercedes-benz-e-220d-premium-business.jpeg',
-        altText: 'mercedes-benz-e-220d-premium-business',
-        order: 1,
-        isPrimary: true
-      },
-      {
-        url: '/cars/mercedes-benz-e-220d-premium-business-1.jpeg',
-        altText: 'mercedes-benz-e-220d-premium-business',
-        order: 2,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e-220d-premium-business-2.jpeg',
-        altText: 'mercedes-benz-e-220d-premium-business',
-        order: 3,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e-220d-premium-business-3.jpeg',
-        altText: 'mercedes-benz-e-220d-premium-business',
-        order: 4,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e-220d-premium-business-4.jpeg',
-        altText: 'mercedes-benz-e-220d-premium-business',
-        order: 5,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e-220d-premium-business-5.jpeg',
-        altText: 'mercedes-benz-e-220d-premium-business',
-        order: 6,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e-220d-premium-business-6.jpeg',
-        altText: 'mercedes-benz-e-220d-premium-business',
-        order: 7,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e-220d-premium-business-7.jpeg',
-        altText: 'mercedes-benz-e-220d-premium-business',
-        order: 8,
-        isPrimary: false
-      },
-      {
-        url: '/cars/mercedes-benz-e-220d-premium-business-8.jpeg',
-        altText: 'mercedes-benz-e-220d-premium-business',
-        order: 9,
-        isPrimary: false
-      },
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen T-Roc",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   },
   {
-    id: 'volkswagen-golf-allstar',
-    slug: 'volkswagen-golf-allstar',
-    name: 'Volkswagen Golf Allstar',
-    brand: 'Volkswagen',
-    model: 'Golf',
-    price: '€7.700',
-    priceEur: 7700,
-    year: '2024',
-    fuel: 'Diesel',
-    transmission: 'Automatic',
-    km: '50.000 km',
-    kmNumber: 50000,
-    image: '/cars/volkswagen-golf-allstar.jpeg',
-    description: 'Volkswagen Golf vuodelta 2024.',
-    detailedDescription: [
-      'Tämä Volkswagen Volkswagen Golf Allstar on loistava valinta luotettavasta ja mukavasta kulkuneuvosta.',
-      'Auto on varustettu Automaticvaihteistolla ja Dieselmoottorilla.',
-      'Auto on käyty läpi huolellisesti ja se on valmis uuteen kotiin.',
+    "id": "audi_q2",
+    "slug": "audi-q2",
+    "name": "Audi Q2",
+    "brand": "Audi",
+    "model": "Q2",
+    "price": "20 490 €",
+    "priceEur": 20490,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "139 000 km",
+    "kmNumber": 139000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi Q2 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
     ],
-    features: [
-      'Airbag Driver',
-      'Airbag Passenger',
-      'Alloy Wheels',
-      'Anti Lock Braking System',
-      'Bluetooth',
-      'Brake Assist',
-      'Heated Seats',
-      'Navigation System',
-      'Stability Control',
-      'Tyre Pressure Monitoring System',
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "4 Doors"
     ],
-    specifications: [
-      { label: 'Vuosimalli', value: '2024' },
-      { label: 'Ajetut kilometrit', value: '50.000 km' },
-      { label: 'Polttoaine', value: 'Diesel' },
-      { label: 'Vaihteisto', value: 'Automatic' },
-      { label: 'Väri', value: 'White' },
-      { label: 'Vetotapa', value: 'FRONT WHEEL DRIVE' },
-      { label: 'Ovet', value: '4 ovea' },
-      { label: 'Tyyppi', value: 'Compact' },
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "139 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
     ],
-    condition: 'Used kunto. Säännöllisesti huollettu.',
-    category: 'family',
-    status: 'available',
-    featured: false,
-    images: [
+    "condition": "Käytetty",
+    "category": "Viistoperä",
+    "status": "available",
+    "featured": true,
+    "images": [
       {
-        url: '/cars/volkswagen-golf-allstar.jpeg',
-        altText: 'volkswagen-golf-allstar',
-        order: 1,
-        isPrimary: true
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi Q2",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "volkswagen_tigua",
+    "slug": "volkswagen-tiguan-4",
+    "name": "Volkswagen Tiguan",
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "price": "19 380 €",
+    "priceEur": 19380,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "171 000 km",
+    "kmNumber": 171000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Tiguan on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "5 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
       },
       {
-        url: '/cars/volkswagen-golf-allstar-1.jpeg',
-        altText: 'volkswagen-golf-allstar',
-        order: 2,
-        isPrimary: false
+        "label": "Mittarilukema",
+        "value": "171 000 km"
       },
       {
-        url: '/cars/volkswagen-golf-allstar-2.jpeg',
-        altText: 'volkswagen-golf-allstar',
-        order: 3,
-        isPrimary: false
+        "label": "Polttoaine",
+        "value": "Diesel"
       },
       {
-        url: '/cars/volkswagen-golf-allstar-3.jpeg',
-        altText: 'volkswagen-golf-allstar',
-        order: 4,
-        isPrimary: false
+        "label": "Vaihteisto",
+        "value": "Automaatti"
       },
       {
-        url: '/cars/volkswagen-golf-allstar-4.jpeg',
-        altText: 'volkswagen-golf-allstar',
-        order: 5,
-        isPrimary: false
+        "label": "Moottori",
+        "value": "2.0L"
       },
       {
-        url: '/cars/volkswagen-golf-allstar-5.jpeg',
-        altText: 'volkswagen-golf-allstar',
-        order: 6,
-        isPrimary: false
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
       },
       {
-        url: '/cars/volkswagen-golf-allstar-6.jpeg',
-        altText: 'volkswagen-golf-allstar',
-        order: 7,
-        isPrimary: false
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Tiguan",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a4_2",
+    "slug": "audi-a4-2",
+    "name": "Audi A4",
+    "brand": "Audi",
+    "model": "A4",
+    "price": "22 800 €",
+    "priceEur": 22800,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "99 000 km",
+    "kmNumber": 99000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi A4 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
       },
       {
-        url: '/cars/volkswagen-golf-allstar-7.jpeg',
-        altText: 'volkswagen-golf-allstar',
-        order: 8,
-        isPrimary: false
+        "label": "Mittarilukema",
+        "value": "99 000 km"
       },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Viistoperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A4",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "volkswagen_passa",
+    "slug": "volkswagen-passat-2",
+    "name": "Volkswagen Passat",
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "price": "12 400 €",
+    "priceEur": 12400,
+    "year": "2017",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "238 000 km",
+    "kmNumber": 238000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Passat on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Blue väri",
+      "5 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2017"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "238 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Blue"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Viistoperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Passat",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "bmw_518",
+    "slug": "bmw-518",
+    "name": "BMW 518",
+    "brand": "BMW",
+    "model": "518",
+    "price": "20 900 €",
+    "priceEur": 20900,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "164 000 km",
+    "kmNumber": 164000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä BMW 518 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Takaveto",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "164 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Takaveto"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "BMW 518",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_q3",
+    "slug": "audi-q3",
+    "name": "Audi Q3",
+    "brand": "Audi",
+    "model": "Q3",
+    "price": "28 800 €",
+    "priceEur": 28800,
+    "year": "2021",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "146 000 km",
+    "kmNumber": 146000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2021. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2021. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi Q3 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2021"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "146 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi Q3",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "seat_tarraco_2",
+    "slug": "seat-tarraco-2",
+    "name": "Seat Tarraco",
+    "brand": "Seat",
+    "model": "Tarraco",
+    "price": "18 490 €",
+    "priceEur": 18490,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "223 000 km",
+    "kmNumber": 223000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Seat Tarraco on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "5 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "223 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Seat Tarraco",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "volkswagen_passa",
+    "slug": "volkswagen-passat-4",
+    "name": "Volkswagen Passat",
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "price": "17 800 €",
+    "priceEur": 17800,
+    "year": "2021",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "135 000 km",
+    "kmNumber": 135000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2021. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2021. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Passat on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "5 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2021"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "135 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Passat",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "volkswagen_t_roc",
+    "slug": "volkswagen-t-roc-4",
+    "name": "Volkswagen T-Roc",
+    "brand": "Volkswagen",
+    "model": "T-Roc",
+    "price": "18 590 €",
+    "priceEur": 18590,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "120 500 km",
+    "kmNumber": 120500,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen T-Roc on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "5 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "120 500 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen T-Roc",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a4_2_0_40td",
+    "slug": "audi-a4-2-0-40tdi-quattro-s-tronic-190kw",
+    "name": "Audi A4",
+    "brand": "Audi",
+    "model": "A4",
+    "price": "",
+    "priceEur": null,
+    "year": "",
+    "fuel": "Bensiini",
+    "transmission": "Automaatti",
+    "km": "99 100 km",
+    "kmNumber": 99100,
+    "image": "/placeholder-car.jpg",
+    "description": "Bensiini. Automaatti.",
+    "detailedDescription": [
+      "Bensiini. Automaatti.",
+      "Tämä Audi A4 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Takaveto",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Mittarilukema",
+        "value": "99 100 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Bensiini"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Takaveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A4",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_q5_business",
+    "slug": "audi-q5-business-sport-20",
+    "name": "Audi Q5",
+    "brand": "Audi",
+    "model": "Q5",
+    "price": "23 000 €",
+    "priceEur": 23000,
+    "year": "2018",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "150 000 km",
+    "kmNumber": 150000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2018. Diesel. Automaatti.",
+    "detailedDescription": [
+      "Vuosimalli 2018. Diesel. Automaatti.",
+      "Tämä Audi Q5 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Blue väri",
+      "5 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2018"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "150 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Blue"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi Q5",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "volkswagen_passa",
+    "slug": "volkswagen-passat-b9",
+    "name": "Volkswagen Passat",
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "price": "22 500 €",
+    "priceEur": 22500,
+    "year": "2020",
+    "fuel": "Bensiini",
+    "transmission": "Automaatti",
+    "km": "155 000 km",
+    "kmNumber": 155000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Bensiini. Automaatti.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Bensiini. Automaatti.",
+      "Tämä Volkswagen Passat on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "155 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Bensiini"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Passat",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a5_35_tdi",
+    "slug": "audi-a5-35-tdi",
+    "name": "Audi A5",
+    "brand": "Audi",
+    "model": "A5",
+    "price": "29 000 €",
+    "priceEur": 29000,
+    "year": "2021",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "90 000 km",
+    "kmNumber": 90000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2021. Diesel. Automaatti.",
+    "detailedDescription": [
+      "Vuosimalli 2021. Diesel. Automaatti.",
+      "Tämä Audi A5 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2021"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "90 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A5",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "volkswagen_golf_",
+    "slug": "volkswagen-golf-7",
+    "name": "Volkswagen Golf",
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "price": "",
+    "priceEur": null,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "197 000 km",
+    "kmNumber": 197000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Golf on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "White väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "197 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Viistoperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Golf",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_q5_business",
+    "slug": "audi-q5-business-sport-2-0",
+    "name": "Audi Q5",
+    "brand": "Audi",
+    "model": "Q5",
+    "price": "24 999 €",
+    "priceEur": 24999,
+    "year": "2021",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "139 000 km",
+    "kmNumber": 139000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2021. Diesel. Automaatti.",
+    "detailedDescription": [
+      "Vuosimalli 2021. Diesel. Automaatti.",
+      "Tämä Audi Q5 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Black väri",
+      "5 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2021"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "139 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "5 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi Q5",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "mercedes_benz_c",
+    "slug": "mercedes-benz-c",
+    "name": "Mercedes-Benz C-Class",
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "price": "19 990 €",
+    "priceEur": 19990,
+    "year": "2018",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "130 000 km",
+    "kmNumber": 130000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2018. Diesel. Automaatti. 2.1L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2018. Diesel. Automaatti. 2.1L moottori.",
+      "Tämä Mercedes-Benz C-Class on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2018"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "130 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.1L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Viistoperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Mercedes-Benz C-Class",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a4_2016",
+    "slug": "audi-a4-2016",
+    "name": "Audi A4",
+    "brand": "Audi",
+    "model": "A4",
+    "price": "15 490 €",
+    "priceEur": 15490,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "210 000 km",
+    "kmNumber": 210000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi A4 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "210 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Viistoperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A4",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "bmw_518_2023",
+    "slug": "bmw-518-2023",
+    "name": "BMW 518",
+    "brand": "BMW",
+    "model": "518",
+    "price": "20 900 €",
+    "priceEur": 20900,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "164 000 km",
+    "kmNumber": 164000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä BMW 518 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "164 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Viistoperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "BMW 518",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a6_sedan_bu",
+    "slug": "audi-a6-sedan-business-40-tdi-quatro-s-tronic",
+    "name": "Audi A6",
+    "brand": "Audi",
+    "model": "A6",
+    "price": "26 890 €",
+    "priceEur": 26890,
+    "year": "",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "178 000 km",
+    "kmNumber": 178000,
+    "image": "/placeholder-car.jpg",
+    "description": "Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi A6 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Mittarilukema",
+        "value": "178 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A6",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "seat_tarraco_2_0",
+    "slug": "seat-tarraco-2-0-tdi-150-4drive-xcellence-dsg",
+    "name": "Seat Tarraco",
+    "brand": "Seat",
+    "model": "Tarraco",
+    "price": "26 780 €",
+    "priceEur": 26780,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "179 000 km",
+    "kmNumber": 179000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Seat Tarraco on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Silver väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "179 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Silver"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Seat Tarraco",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "bmw_x3",
+    "slug": "bmw-x3",
+    "name": "BMW X3",
+    "brand": "BMW",
+    "model": "X3",
+    "price": "29 300 €",
+    "priceEur": 29300,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "149 000 km",
+    "kmNumber": 149000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä BMW X3 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "149 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "BMW X3",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "bmw_518_g30_seda",
+    "slug": "bmw-518-g30-sedan-518d-a-business-tulossa",
+    "name": "BMW 518",
+    "brand": "BMW",
+    "model": "518",
+    "price": "15 900 €",
+    "priceEur": 15900,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "282 000 km",
+    "kmNumber": 282000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä BMW 518 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Takaveto",
+      "White väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "282 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Takaveto"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "BMW 518",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "volkswagen_golf",
+    "slug": "volkswagen-golf",
+    "name": "Volkswagen Golf",
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "price": "13 890 €",
+    "priceEur": 13890,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "198 000 km",
+    "kmNumber": 198000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Volkswagen Golf on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "White väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "198 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Golf",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "volkswagen_golf_",
+    "slug": "volkswagen-golf-allstar",
+    "name": "Volkswagen Golf",
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "price": "7 700 €",
+    "priceEur": 7700,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "235 000 km",
+    "kmNumber": 235000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 1.6L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 1.6L moottori.",
+      "Tämä Volkswagen Golf on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "White väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "235 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "1.6L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Golf",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "skoda_superb",
+    "slug": "skoda-superb",
+    "name": "Skoda Superb",
+    "brand": "Skoda",
+    "model": "Superb",
+    "price": "9 900 €",
+    "priceEur": 9900,
+    "year": "2017",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "336 000 km",
+    "kmNumber": 336000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2017. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Skoda Superb on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Gray väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2017"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "336 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Gray"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Skoda Superb",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a6_sedan_bu",
+    "slug": "audi-a6-sedan-business-sport-3-0-v6-tdi-160-kw-quattro",
+    "name": "Audi A6",
+    "brand": "Audi",
+    "model": "A6",
+    "price": "11 000 €",
+    "priceEur": 11000,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "372 000 km",
+    "kmNumber": 372000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 3.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 3.0L moottori.",
+      "Tämä Audi A6 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Silver väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "372 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "3.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Silver"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A6",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "bmw_320",
+    "slug": "bmw-320",
+    "name": "BMW 320",
+    "brand": "BMW",
+    "model": "320",
+    "price": "23 980 €",
+    "priceEur": 23980,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "173 000 km",
+    "kmNumber": 173000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä BMW 320 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Gray väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "173 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Gray"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "BMW 320",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "mercedes_benz_e_",
+    "slug": "mercedes-benz-e-220d-premium-business",
+    "name": "Mercedes-Benz E-Class",
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "price": "20 480 €",
+    "priceEur": 20480,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "262 000 km",
+    "kmNumber": 262000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Mercedes-Benz E-Class on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Takaveto",
+      "White väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "262 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Takaveto"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Mercedes-Benz E-Class",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "bmw_520_f10_seda",
+    "slug": "bmw-520-f10-sedan-520d-a-xdrive-edition-exclusive",
+    "name": "BMW BMW 520",
+    "brand": "BMW",
+    "model": "BMW 520",
+    "price": "11 500 €",
+    "priceEur": 11500,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "229 000 km",
+    "kmNumber": 229000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä BMW BMW 520 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "229 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "BMW BMW 520",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a6_2",
+    "slug": "audi-a6-2",
+    "name": "Audi A6",
+    "brand": "Audi",
+    "model": "A6",
+    "price": "16 500 €",
+    "priceEur": 16500,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "156 000 km",
+    "kmNumber": 156000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 3.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 3.0L moottori.",
+      "Tämä Audi A6 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "White väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "156 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "3.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A6",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a6_avant_40",
+    "slug": "audi-a6-avant-40-tdi-mhev-quattro-s-tronic-business-design",
+    "name": "Audi A6",
+    "brand": "Audi",
+    "model": "A6",
+    "price": "24 850 €",
+    "priceEur": 24850,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "192 000 km",
+    "kmNumber": 192000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi A6 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "192 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A6",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "4313",
+    "slug": "4313",
+    "name": "Skoda Superb",
+    "brand": "Skoda",
+    "model": "Superb",
+    "price": "14 900 €",
+    "priceEur": 14900,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "305 000 km",
+    "kmNumber": 305000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Skoda Superb on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Takaveto",
+      "White väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "305 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Takaveto"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Skoda Superb",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "mercedes_benz_e2",
+    "slug": "mercedes-benz-e220-amg-paketti",
+    "name": "Mercedes-Benz E-Class",
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "price": "20 500 €",
+    "priceEur": 20500,
+    "year": "2018",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "247 000 km",
+    "kmNumber": 247000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2018. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2018. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Mercedes-Benz E-Class on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Takaveto",
+      "Silver väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2018"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "247 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Takaveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Silver"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Mercedes-Benz E-Class",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "mercedes_benz_e2",
+    "slug": "mercedes-benz-e220",
+    "name": "Mercedes-Benz E-Class",
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "price": "23 000 €",
+    "priceEur": 23000,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "181 000 km",
+    "kmNumber": 181000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Mercedes-Benz E-Class on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Takaveto",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "181 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Takaveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Mercedes-Benz E-Class",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "skoda_octavia_1_",
+    "slug": "skoda-octavia-1-6-tdi-syle",
+    "name": "Skoda Octavia",
+    "brand": "Skoda",
+    "model": "Octavia",
+    "price": "9 600 €",
+    "priceEur": 9600,
+    "year": "2017",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "261 000 km",
+    "kmNumber": 261000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2017. Diesel. Automaatti. 1.6L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2017. Diesel. Automaatti. 1.6L moottori.",
+      "Tämä Skoda Octavia on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2017"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "261 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "1.6L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Skoda Octavia",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a6_3",
+    "slug": "audi-a6-3",
+    "name": "Audi A6",
+    "brand": "Audi",
+    "model": "A6",
+    "price": "16 800 €",
+    "priceEur": 16800,
+    "year": "2018",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "213 000 km",
+    "kmNumber": 213000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2018. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2018. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi A6 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "White väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2018"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "213 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A6",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "vw_passat_1_6",
+    "slug": "vw-passat-1-6",
+    "name": "Volkswagen Passat",
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "price": "8 000 €",
+    "priceEur": 8000,
+    "year": "2016",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "223 396 km",
+    "kmNumber": 223396,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2016. Diesel. Automaatti. 1.6L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2016. Diesel. Automaatti. 1.6L moottori.",
+      "Tämä Volkswagen Passat on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Gray väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2016"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "223 396 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "1.6L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Gray"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Volkswagen Passat",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "seat_tarraco_2_0",
+    "slug": "seat-tarraco-2-0",
+    "name": "Seat Tarraco",
+    "brand": "Seat",
+    "model": "Tarraco",
+    "price": "19 900 €",
+    "priceEur": 19900,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "213 000 km",
+    "kmNumber": 213000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Seat Tarraco on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "White väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "213 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "White"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Seat Tarraco",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_a4_allroad_",
+    "slug": "audi-a4-allroad-2-0",
+    "name": "Audi A4",
+    "brand": "Audi",
+    "model": "A4",
+    "price": "21 430 €",
+    "priceEur": 21430,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "238 000 km",
+    "kmNumber": 238000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi A4 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Black väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "238 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Farmari",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi A4",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "bmw_x5",
+    "slug": "bmw-x5",
+    "name": "BMW X5",
+    "brand": "BMW",
+    "model": "X5",
+    "price": "59 000 €",
+    "priceEur": 59000,
+    "year": "2019",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "43 000 km",
+    "kmNumber": 43000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2019. Diesel. Automaatti. 3.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2019. Diesel. Automaatti. 3.0L moottori.",
+      "Tämä BMW X5 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Black väri"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2019"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "43 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "3.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Black"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "BMW X5",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "audi_q5_2_0",
+    "slug": "audi-q5-2-0",
+    "name": "Audi Q5",
+    "brand": "Audi",
+    "model": "Q5",
+    "price": "22 400 €",
+    "priceEur": 22400,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "225 000 km",
+    "kmNumber": 225000,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 2.0L moottori.",
+      "Tämä Audi Q5 on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Neliveto (AWD/4WD)",
+      "Silver väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "225 000 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "2.0L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Neliveto (AWD/4WD)"
+      },
+      {
+        "label": "Väri",
+        "value": "Silver"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Maastoauto SUV",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Audi Q5",
+        "order": 1,
+        "isPrimary": true
+      }
+    ]
+  },
+  {
+    "id": "skoda_octavia_1_",
+    "slug": "skoda-octavia-1-6-diesel-automaatti-2020",
+    "name": "Skoda Octavia",
+    "brand": "Skoda",
+    "model": "Octavia",
+    "price": "9 500 €",
+    "priceEur": 9500,
+    "year": "2020",
+    "fuel": "Diesel",
+    "transmission": "Automaatti",
+    "km": "257 578 km",
+    "kmNumber": 257578,
+    "image": "/placeholder-car.jpg",
+    "description": "Vuosimalli 2020. Diesel. Automaatti. 1.6L moottori.",
+    "detailedDescription": [
+      "Vuosimalli 2020. Diesel. Automaatti. 1.6L moottori.",
+      "Tämä Skoda Octavia on huolellisesti tarkastettu ja valmis uuteen kotiin.",
+      "Ota yhteyttä saadaksesi lisätietoja tai varataksesi koeajon."
+    ],
+    "features": [
+      "Etuveto",
+      "Gray väri",
+      "4 Doors"
+    ],
+    "specifications": [
+      {
+        "label": "Vuosi",
+        "value": "2020"
+      },
+      {
+        "label": "Mittarilukema",
+        "value": "257 578 km"
+      },
+      {
+        "label": "Polttoaine",
+        "value": "Diesel"
+      },
+      {
+        "label": "Vaihteisto",
+        "value": "Automaatti"
+      },
+      {
+        "label": "Moottori",
+        "value": "1.6L"
+      },
+      {
+        "label": "Vetotapa",
+        "value": "Etuveto"
+      },
+      {
+        "label": "Väri",
+        "value": "Gray"
+      },
+      {
+        "label": "Ovet",
+        "value": "4 Doors"
+      }
+    ],
+    "condition": "Käytetty",
+    "category": "Porrasperä",
+    "status": "available",
+    "featured": true,
+    "images": [
+      {
+        "url": "/placeholder-car.jpg",
+        "altText": "Skoda Octavia",
+        "order": 1,
+        "isPrimary": true
+      }
     ]
   }
 ];
 
+// Helper functions
 export function getCarById(id: string): Car | undefined {
   return cars.find(car => car.id === id || car.slug === id);
 }
 
 export function getCarsByBrand(brand: string): Car[] {
-  return cars.filter(car => car.brand.toLowerCase() === brand.toLowerCase());
+  const brandLower = brand.toLowerCase();
+  return cars.filter(car =>
+    car.brand.toLowerCase() === brandLower ||
+    car.brand.toLowerCase().includes(brandLower)
+  );
 }
 
 export function getCarsByCategory(category: string): Car[] {
-  return cars.filter(car => car.category === category);
+  const categoryLower = category.toLowerCase();
+  return cars.filter(car =>
+    car.category.toLowerCase() === categoryLower ||
+    car.category.toLowerCase().includes(categoryLower)
+  );
 }
 
-export function getRelatedCars(currentCarId: string, limit: number = 3): Car[] {
-  const currentCar = getCarById(currentCarId);
-  if (!currentCar) return [];
+export function getRelatedCars(car: Car, limit: number = 4): Car[] {
+  return cars
+    .filter(c =>
+      c.id !== car.id && (
+        c.brand === car.brand ||
+        c.category === car.category
+      )
+    )
+    .slice(0, limit);
+}
 
-  // Get cars from same brand first
-  let related = getCarsByBrand(currentCar.brand).filter(car => car.id !== currentCarId);
+export function getFeaturedCars(limit?: number): Car[] {
+  const featured = cars.filter(car => car.featured);
+  return limit ? featured.slice(0, limit) : featured;
+}
 
-  // If not enough, add cars from same category
-  if (related.length < limit) {
-    const categoryMatches = getCarsByCategory(currentCar.category)
-      .filter(car => car.id !== currentCarId && !related.find(r => r.id === car.id));
-    related = [...related, ...categoryMatches];
-  }
+export function getAllBrands(): string[] {
+  const brands = new Set(cars.map(car => car.brand));
+  return Array.from(brands).sort();
+}
 
-  // If still not enough, add any other cars
-  if (related.length < limit) {
-    const others = cars
-      .filter(car => car.id !== currentCarId && !related.find(r => r.id === car.id));
-    related = [...related, ...others];
-  }
-
-  return related.slice(0, limit);
+export function getAllCategories(): string[] {
+  const categories = new Set(cars.map(car => car.category));
+  return Array.from(categories).filter(Boolean).sort();
 }

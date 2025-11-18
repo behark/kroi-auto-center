@@ -1,154 +1,81 @@
+/**
+ * WordPress-Style Homepage
+ * Completely recreated to match kroiautocenter.fi
+ */
+
 import { Metadata } from 'next';
 import { cars } from '@/app/data/cars';
-import PageLayout from './components/layout/PageLayout';
-import HomeContent from './(pages)/home/HomeContent';
+import { HeroSection, SearchSection } from './components/wordpress/HeroSection';
+import { CarCard } from './components/wordpress/CarCard';
+import { AboutSection, CommitmentBanner } from './components/wordpress/AboutSection';
+import { FloatingButtons } from './components/wordpress/FloatingButtons';
 
 export const metadata: Metadata = {
   title: 'Kroi Auto Center - Laadukkaita käytettyjä autoja Helsingissä',
   description: 'Kroi Auto Center on luotettava autoliike Helsingissä. Meiltä löydät laadukkaita käytettyjä autoja, rahoitusratkaisuja ja ammattitaitoista palvelua. Yli 15 vuoden kokemus.',
-  keywords: [
-    'käytetyt autot',
-    'autokauppa Helsinki',
-    'autorahoitus',
-    'käytettyjen autojen myynti',
-    'Kroi Auto Center',
-    'luotettava autoliike',
-    'autohuolto',
-    'takuuautot'
-  ],
-  openGraph: {
-    title: 'Kroi Auto Center - Laadukkaita käytettyjä autoja',
-    description: 'Luotettava autoliike Helsingissä. Meiltä löydät laadukkaita käytettyjä autoja ja ammattitaitoista palvelua.',
-    url: 'https://kroiautocenter.fi',
-    siteName: 'Kroi Auto Center',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Kroi Auto Center - Käytettyjen autojen asiantuntija',
-      },
-    ],
-    locale: 'fi_FI',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Kroi Auto Center - Laadukkaita käytettyjä autoja',
-    description: 'Luotettava autoliike Helsingissä. Meiltä löydät laadukkaita käytettyjä autoja ja ammattitaitoista palvelua.',
-    images: ['/og-image.jpg'],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
 };
 
-export default function Home() {
-  // Get latest 9 cars sorted by year (newest first)
-  const latestCars = cars
+export default function WordPressHomepage() {
+  // Get latest cars sorted by year
+  const displayCars = cars
     .sort((a, b) => parseInt(b.year) - parseInt(a.year))
-    .slice(0, 9);
-
-  // Structured data for local business
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "AutoDealer",
-    "@id": "https://kroiautocenter.fi",
-    "name": "Kroi Auto Center",
-    "description": "Luotettava autoliike Helsingissä. Meiltä löydät laadukkaita käytettyjä autoja, rahoitusratkaisuja ja ammattitaitoista palvelua.",
-    "url": "https://kroiautocenter.fi",
-    "logo": "https://kroiautocenter.fi/logo.png",
-    "image": "https://kroiautocenter.fi/og-image.jpg",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Läkkisepäntie 15 B",
-      "postalCode": "00620",
-      "addressLocality": "Helsinki",
-      "addressCountry": "FI"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "60.1699",
-      "longitude": "24.9384"
-    },
-    "telephone": "+358413188214",
-    "email": "kroiautocenter@gmail.com",
-    "openingHours": [
-      "Mo-Fr 10:00-18:00",
-      "Sa 11:00-17:00"
-    ],
-    "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
-    "priceRange": "€€€",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "127"
-    },
-    "sameAs": [
-      "https://www.facebook.com/people/Kroi-Auto-Center-Oy/61561550627512/",
-      "https://www.instagram.com/kroiautocenteroy"
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Käytetyt autot",
-      "itemListElement": latestCars.slice(0, 6).map((car, index) => ({
-        "@type": "Offer",
-        "position": index + 1,
-        "itemOffered": {
-          "@type": "Car",
-          "name": car.name,
-          "brand": car.brand,
-          "model": car.model,
-          "vehicleModelDate": car.year,
-          "fuelType": car.fuel,
-          "vehicleTransmission": car.transmission,
-          "mileageFromOdometer": {
-            "@type": "QuantitativeValue",
-            "value": car.km,
-            "unitCode": "KMT"
-          }
-        },
-        "price": car.price,
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "AutoDealer",
-          "name": "Kroi Auto Center"
-        }
-      }))
-    },
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "60.1699",
-        "longitude": "24.9384"
-      },
-      "geoRadius": "100000"
-    }
-  };
+    .slice(0, 12); // Show 12 cars
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-      <PageLayout
-        pageKey="homepage"
-        showFooter={true}
-        className="bg-gradient-to-b from-slate-50 to-white"
-      >
-        <HomeContent cars={latestCars} />
-      </PageLayout>
-    </>
+    <main className="min-h-screen bg-background">
+      {/* Hero Section - Black background with Finnish text */}
+      <HeroSection />
+
+      {/* Search Section */}
+      <SearchSection />
+
+      {/* Car Listings Section */}
+      <section className="bg-background py-12 md:py-16">
+        <div className="container mx-auto px-4 md:px-6">
+          {/* Section Title */}
+          <h2 className="text-3xl md:text-4xl font-bold text-kroi-pink mb-12 text-center">
+            Myynnissä olevat autot
+          </h2>
+
+          {/* Car Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            {displayCars.map((car) => (
+              <CarCard
+                key={car.id}
+                id={car.id}
+                slug={car.slug}
+                name={car.name}
+                price={car.price}
+                year={car.year}
+                km={car.km}
+                fuel={car.fuel}
+                transmission={car.transmission}
+                image={car.image}
+                images={car.images}
+              />
+            ))}
+          </div>
+
+          {/* View All Cars Button */}
+          <div className="text-center mt-12">
+            <a
+              href="/cars"
+              className="inline-block bg-kroi-pink text-white px-10 py-4 rounded-lg text-lg font-bold uppercase hover:bg-kroi-pink-dark transition-colors shadow-lg"
+            >
+              Katso kaikki autot
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section - Purple gradient */}
+      <AboutSection />
+
+      {/* Commitment Banner */}
+      <CommitmentBanner />
+
+      {/* Floating Buttons (WhatsApp & Scroll-to-Top) */}
+      <FloatingButtons />
+    </main>
   );
 }

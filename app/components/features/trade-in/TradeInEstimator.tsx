@@ -4,7 +4,6 @@ import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Car, Calculator, Zap, Clock, FileText, Phone, MessageCircle, CheckCircle, AlertCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
-import confetti from 'canvas-confetti';
 import { Input } from '@/app/components/ui/forms/Input';
 import { Button } from '@/app/components/ui/buttons/Button';
 import { cars } from '@/app/data/cars';
@@ -231,16 +230,6 @@ export default function TradeInEstimator({
       });
       setIsCalculating(false);
       setShowSuccess(true);
-
-      // Celebration for good estimate
-      if (offerValue > 15000) {
-        confetti({
-          particleCount: 100,
-          spread: 70,
-          origin: { y: 0.8 },
-          colors: ['#3b82f6', '#1d4ed8', '#1e40af']
-        });
-      }
 
       setTimeout(() => setShowSuccess(false), 3000);
     }, 2300);

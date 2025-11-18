@@ -7,7 +7,6 @@ import { useComparisonStore } from '@/app/lib/features/comparison-store';
 import Link from 'next/link';
 import Image from 'next/image';
 import { cn } from '@/app/lib/core/utils';
-import confetti from 'canvas-confetti';
 
 export default function ComparisonWidget() {
   const [isVisible, setIsVisible] = useState(false);
@@ -17,16 +16,6 @@ export default function ComparisonWidget() {
   useEffect(() => {
     const count = getComparisonCount();
     setIsVisible(count > 0);
-
-    // Celebrate when user adds 3rd car
-    if (count === 3) {
-      confetti({
-        particleCount: 100,
-        spread: 70,
-        origin: { y: 0.8 },
-        colors: ['#7c3aed', '#ec4899', '#8b5cf6']
-      });
-    }
   }, [getComparisonCount]);
 
   // Hydration fix for SSR

@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  /* WordPress Theme Colors */
+  --background: #F5F5F5;
+  --foreground: #000000;
+
+  /* KROI Brand Colors */
+  --kroi-pink: #C84B8A;
+  --kroi-pink-light: #E991BB;
+  --kroi-pink-dark: #A13B6E;
+
+  /* Secondary Colors */
+  --kroi-blue: #3B82F6;
+  --kroi-blue-light: #60A5FA;
+  --kroi-blue-dark: #2563EB;
+
+  /* Background Variations */
+  --bg-main: #F5F5F5;
+  --bg-white: #FFFFFF;
+  --bg-black: #000000;
+  --bg-dark: #1F1F1F;
+  --bg-purple: #8B5CF6;
+
+  /* Text Colors */
+  --text-primary: #000000;
+  --text-secondary: #6B7280;
+  --text-gray: #9CA3AF;
+  --text-white: #FFFFFF;
+
+  /* Other */
+  --whatsapp-green: #25D366;
+}
+
+@theme inline {
+  /* Colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-kroi-pink: var(--kroi-pink);
+  --color-kroi-pink-light: var(--kroi-pink-light);
+  --color-kroi-pink-dark: var(--kroi-pink-dark);
+  --color-kroi-blue: var(--kroi-blue);
+  --color-kroi-blue-light: var(--kroi-blue-light);
+  --color-kroi-blue-dark: var(--kroi-blue-dark);
+  --color-whatsapp: var(--whatsapp-green);
+
+  /* Fonts */
+  --font-family-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-family-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  /* Border Radius (WordPress Style) */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  /* Shadows (WordPress Style) */
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-platform: 0 10px 30px -5px rgba(0, 0, 0, 0.15);
+}
+
+/* Disabled dark mode - WordPress design uses light theme only */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #F5F5F5;
+    --foreground: #000000;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif !important;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

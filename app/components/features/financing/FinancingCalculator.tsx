@@ -3,7 +3,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Calculator, CreditCard, Calendar, Percent, Info, Euro, Phone, MessageCircle, TrendingUp, TrendingDown, CheckCircle, Sparkles, ChevronDown } from 'lucide-react';
-import confetti from 'canvas-confetti';
 import { Input } from '@/app/components/ui/forms/Input';
 import { Button } from '@/app/components/ui/buttons/Button';
 
@@ -121,16 +120,6 @@ export default function FinancingCalculator({
     setTotalInterest(totalInt);
     setLastCalculation(newCalculation);
     setIsCalculating(false);
-
-    // Celebrate good deal
-    if (payment < vehiclePrice * 0.03) { // Less than 3% of vehicle price monthly
-      confetti({
-        particleCount: 50,
-        spread: 60,
-        origin: { y: 0.8 },
-        colors: ['#22c55e', '#16a34a', '#15803d']
-      });
-    }
   }, [loanAmount, interestRate, loanTerm, vehiclePrice, lastCalculation]);
 
   // Debounced calculation
